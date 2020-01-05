@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "aberlaas": "0.11.0",
+    "firost": "0.20.0",
+    "golgoth": "0.6.4",
+    "norska": "0.5.33"
+  },
+  "files": ["build/"],
+  "main": "build/index.js",
+  "scripts": {
+    "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
+    "build:watch": "./scripts/build-watch",
+    "ci": "./scripts/ci",
+    "cms": "./scripts/cms",
+    "husky:precommit": "./scripts/husky-precommit",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "serve": "./scripts/serve",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
+  }
+}
