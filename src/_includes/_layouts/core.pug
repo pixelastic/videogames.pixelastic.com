@@ -26,9 +26,12 @@ html(lang='en')
     script!=tweaks.ensureUrlTrailingSlashSource
     link(rel="shortcut icon", href=`./favicon.png`)
     link(type="text/css", rel="stylesheet", href=revv(`${url.pathToRoot}style.css`))
+    link(type="text/css", rel="stylesheet", href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
     body.bg-gray-4
       include /_includes/header
-      block content
+      .pt-8
+        block content
+      script(src="https://cdn.jsdelivr.net/combine/npm/jquery@3.4.1,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/lazysizes@5.2.0")
       each jsFile in runtime.jsFiles
         script(src=`${url.pathToRoot}${jsFile}`)
 

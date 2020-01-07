@@ -1,9 +1,10 @@
 extends /_includes/_layouts/core
 
 block config
-  - pageTitle = "Custom title"
-  - pageDescription = "Custom description"
+  //- - pageTitle = "All games"
+  //- - pageDescription = ""
   //- see also: pageAuthor, pageImage, pageTwitter, pageUrl
 
 block content
-  p This is your website
+  each game in data.games
+    a(href=`${game.slug}.html`)=game.name

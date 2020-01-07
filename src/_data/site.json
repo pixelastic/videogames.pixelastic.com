@@ -1,8 +1,8 @@
 {
-  "defaultDescription": "Your website description. You can overwrite it in any pug file",
-  "defaultTitle": "Default page title. You can overwrite it in any pug file",
-  "defaultUrl": "http://www.your-production-url.com/",
+  "defaultDescription": "Documenting the videogames I play",
+  "defaultTitle": "Videogames",
+  "defaultUrl": "https://videogames.pixelastic.com/",
   "defaultImage": "opengraph.png",
-  "defaultAuthor": "Your Name",
-  "defaultTwitter": "yourusername"
+  "defaultAuthor": "Tim Carry",
+  "defaultTwitter": "pixelastic"
 }
