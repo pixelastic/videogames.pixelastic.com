@@ -26,7 +26,9 @@ block prepend content
       div
         .__gallery-list.rw.hidden(name=`gallery-${index}`)
           each asset in tab.files
-            - assetUrl = `http://assets.pixelastic.com/videogames/${gameSlug}/${asset}`;
-            a.fln.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox=`gallery-${index}` href=assetUrl)
-              img.js-zoom.lazyload(data-src=assetUrl)
+            - thumbnailHigh = data.cloudinary.thumbnailHigh(`${gameSlug}/${asset}`);
+            - thumbnailLow = data.cloudinary.thumbnailLow(`${gameSlug}/${asset}`);
+            - fullImage = data.cloudinary.fullImage(`${gameSlug}/${asset}`);
+            a.fln.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox=`gallery-${index}` href=fullImage)
+              img.js-zoom.lazyload(data-src=thumbnailHigh src=thumnailLow)
 
