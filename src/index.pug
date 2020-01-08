@@ -6,6 +6,11 @@ block config
   //- see also: pageAuthor, pageImage, pageTwitter, pageUrl
 
 block content
-  each game in data.games
-    p
-      a(href=`${game.slug}.html`)=game.name
+  .flrw
+    each game in _.sortBy(data.games, ['slug'])
+      - thumbnailHigh = data.cloudinary.thumbnailHigh(`${game.slug}/cover.jpg`);
+      - thumbnailLow = data.cloudinary.thumbnailLow(`${game.slug}/cover.jpg`);
+      a.fln.relative.h-12.bg-center.bg-no-repeat.bg-cover.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(href=`${game.slug}.html` style=`background-image: url(${thumbnailHigh})`)
+        .absolute.top-0.right-0.bottom-0.left-0.bg-black.bg-opacity-75p.hover_bg-opacity-50p
+          .flcnw.h-100p.flc.gray-5.hover_white
+            .orbitron.text-4.text-center.text-shadow=game.name

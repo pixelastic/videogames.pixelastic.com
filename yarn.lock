@@ -972,11 +972,6 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dishonored/-/videogames-assets-dishonored-0.0.2.tgz#865d2c34fe6bbe14a453045afedeb67a8536f32c"
   integrity sha512-RHNGb/7pdKYs9RkOc12dF114q2JkKIPhOyb4pJM86l5/S7eS69qSflzUM+Vyzbd+KQ1K3I3d3dStwYd8cdIlOg==
 
-"@pixelastic/videogames-assets-gta4-lost-and-damned@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta4-lost-and-damned/-/videogames-assets-gta4-lost-and-damned-0.0.2.tgz#2fa04d74118455e9221edc0c9e78eee6f9e2d996"
-  integrity sha512-JkBKMl4PO6ugAKeDWCl75pL3lqhbXqxHL26bwq8hiecdI3+NipSPQvL76hpWkczAHrUOc0Ozogr0S3NaqpgwVA==
-
 "@pixelastic/videogames-assets-gta5@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta5/-/videogames-assets-gta5-0.0.2.tgz#5352f98803bcc3320641073151b0bc013ed186c6"
@@ -986,11 +981,6 @@
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hearthstone/-/videogames-assets-hearthstone-0.0.2.tgz#4e727296ac669087bb363a0e33a1d77f1d09aa3b"
   integrity sha512-U309nTo03aBnZ7rMInmNWs5qsGvvHG6monH5mjDEZYD4kTjkZ6LpOR05a34GUJSHpYH85P2bz8R8efOycg23Sw==
-
-"@pixelastic/videogames-assets-hitman-absolution@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hitman-absolution/-/videogames-assets-hitman-absolution-0.0.2.tgz#36e874a3405fd74e1e3fe3a0f2a2a9c12a2dec4c"
-  integrity sha512-e+ANXYUyBNhblYSvhrCxBUNakqazEIidiUlOuWlH21CEOXn21DYLaWlKgQsReocUyVSXPghvs3ld71kJlSRE8g==
 
 "@pixelastic/videogames-assets-lego-harry-potter-year-5-7@0.0.2":
   version "0.0.2"

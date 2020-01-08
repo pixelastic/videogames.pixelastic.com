@@ -29,6 +29,6 @@ block prepend content
             - thumbnailHigh = data.cloudinary.thumbnailHigh(`${gameSlug}/${asset}`);
             - thumbnailLow = data.cloudinary.thumbnailLow(`${gameSlug}/${asset}`);
             - fullImage = data.cloudinary.fullImage(`${gameSlug}/${asset}`);
-            a.fln.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox=`gallery-${index}` href=fullImage)
+            a.fln.flcnw.flc.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox=`gallery-${index}` href=fullImage)
               img.js-zoom.lazyload(data-src=thumbnailHigh src=thumnailLow)
 
