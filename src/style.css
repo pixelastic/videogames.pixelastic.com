@@ -62,3 +62,35 @@
     @apply flex;
   }
 }
+#gallery-7:checked ~ .__gallery-wrapper {
+  .__gallery-tab[for='gallery-7'] {
+    @apply bg-gray-6 white;
+  }
+  .__gallery-list[name='gallery-7'] {
+    @apply flex;
+  }
+}
+#gallery-8:checked ~ .__gallery-wrapper {
+  .__gallery-tab[for='gallery-8'] {
+    @apply bg-gray-6 white;
+  }
+  .__gallery-list[name='gallery-8'] {
+    @apply flex;
+  }
+}
+#gallery-9:checked ~ .__gallery-wrapper {
+  .__gallery-tab[for='gallery-9'] {
+    @apply bg-gray-6 white;
+  }
+  .__gallery-list[name='gallery-9'] {
+    @apply flex;
+  }
+}
+#gallery-10:checked ~ .__gallery-wrapper {
+  .__gallery-tab[for='gallery-10'] {
+    @apply bg-gray-6 white;
+  }
+  .__gallery-list[name='gallery-10'] {
+    @apply flex;
+  }
+}

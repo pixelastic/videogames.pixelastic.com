@@ -15,10 +15,11 @@ block prepend content
 
   .__gallery-wrapper
     //- Tabs
-    .flrw.bg-gray-5.orbitron
-      each tab, index in game.manifest
-        label.__gallery-tab.active_bg-blue.fla.flcnw.flc.p-2.hover_pointer.hover_bg-gray-6.gray-9.hover_white(for=`gallery-${index}`)
-          .text-4=tab.name
+    if game.manifest.length > 1
+      .flrw.bg-gray-5.orbitron
+        each tab, index in game.manifest
+          label.__gallery-tab.fla.flcnw.flc.p-2.w-20p.hover_pointer.hover_bg-gray-6.gray-9.hover_white(for=`gallery-${index}`)
+            .text-4=tab.name
 
     //- Images
     each tab, index in game.manifest

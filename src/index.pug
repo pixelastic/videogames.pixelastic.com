@@ -7,4 +7,5 @@ block config
 
 block content
   each game in data.games
-    a(href=`${game.slug}.html`)=game.name
+    p
+      a(href=`${game.slug}.html`)=game.name

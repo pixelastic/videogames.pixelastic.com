@@ -957,10 +957,85 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@pixelastic/videogames-assets-poe@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe/-/videogames-assets-poe-0.0.1.tgz#2d611a2d77456f805504884545513accb053f5f8"
-  integrity sha512-YkkdbjROlTpmd95QcK5rnnf13t7fKgII1qoDfVEfVo31dq72uini53f52tiB+t4vHzEpgyEpWPD/1pWWutLQAg==
+"@pixelastic/videogames-assets-castlecrashers@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-castlecrashers/-/videogames-assets-castlecrashers-0.0.2.tgz#4584c2a7d879170367a9369762fc8b136bcdd302"
+  integrity sha512-99fiGstMm8B7xVg6eEqZOcBf/oxoLCcW3hPc9degGikhqC79yfVoAimQ4q5Fv86V7bM8t+Ghe8qu63jJFmvSPA==
+
+"@pixelastic/videogames-assets-commandos@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-commandos/-/videogames-assets-commandos-0.0.3.tgz#a4ec424e67daf0a8b4bd17906310b4c8222b4a64"
+  integrity sha512-8FZjnup48MyIFMjWzg8L0slZFyTw1oOfliGlfn77vFSQgJ4drhBQX/cgaPV0HvMx5C344ETdNEk3Du4OJ+wIRg==
+
+"@pixelastic/videogames-assets-dishonored@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dishonored/-/videogames-assets-dishonored-0.0.2.tgz#865d2c34fe6bbe14a453045afedeb67a8536f32c"
+  integrity sha512-RHNGb/7pdKYs9RkOc12dF114q2JkKIPhOyb4pJM86l5/S7eS69qSflzUM+Vyzbd+KQ1K3I3d3dStwYd8cdIlOg==
+
+"@pixelastic/videogames-assets-gta4-lost-and-damned@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta4-lost-and-damned/-/videogames-assets-gta4-lost-and-damned-0.0.2.tgz#2fa04d74118455e9221edc0c9e78eee6f9e2d996"
+  integrity sha512-JkBKMl4PO6ugAKeDWCl75pL3lqhbXqxHL26bwq8hiecdI3+NipSPQvL76hpWkczAHrUOc0Ozogr0S3NaqpgwVA==
+
+"@pixelastic/videogames-assets-gta5@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta5/-/videogames-assets-gta5-0.0.2.tgz#5352f98803bcc3320641073151b0bc013ed186c6"
+  integrity sha512-1+gvtNHyFxebf4NMjp44PukSXrO+DnQq+TaWR2zlFtpIEna0ctznA6WXx+2EzKHLruMS2T2Ma9U/KsG4t+LLPA==
+
+"@pixelastic/videogames-assets-hearthstone@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hearthstone/-/videogames-assets-hearthstone-0.0.2.tgz#4e727296ac669087bb363a0e33a1d77f1d09aa3b"
+  integrity sha512-U309nTo03aBnZ7rMInmNWs5qsGvvHG6monH5mjDEZYD4kTjkZ6LpOR05a34GUJSHpYH85P2bz8R8efOycg23Sw==
+
+"@pixelastic/videogames-assets-hitman-absolution@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hitman-absolution/-/videogames-assets-hitman-absolution-0.0.2.tgz#36e874a3405fd74e1e3fe3a0f2a2a9c12a2dec4c"
+  integrity sha512-e+ANXYUyBNhblYSvhrCxBUNakqazEIidiUlOuWlH21CEOXn21DYLaWlKgQsReocUyVSXPghvs3ld71kJlSRE8g==
+
+"@pixelastic/videogames-assets-lego-harry-potter-year-5-7@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-lego-harry-potter-year-5-7/-/videogames-assets-lego-harry-potter-year-5-7-0.0.2.tgz#041b4f3336afb28e307921e23f267b2c3082a92e"
+  integrity sha512-ema7SbMaR246BAi9ci9QjgA7sd6KCgyki0L1+rriFUtYImtKbeCq0y8DjcuphlsM3m/UWRbTuMS3y+Qx24yGpw==
+
+"@pixelastic/videogames-assets-misc@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-misc/-/videogames-assets-misc-0.0.2.tgz#be4e6d73575271340250ddfa88a16455a9dca33d"
+  integrity sha512-UI82bkUoOYI+kG0DygwYZLxRjfAfSpAM+Z4THZRSppiaJmssobDehVh3u9JqQBo635f3nn0NrwccglJdi1LH2A==
+
+"@pixelastic/videogames-assets-poe@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe/-/videogames-assets-poe-0.0.10.tgz#a0da01a8aea725f5598bca139968f8e67d011fba"
+  integrity sha512-KsnZsrIdv8Iu3xitjCbdcaRSpvrPaYtvS5AQ246gt7B3uywfdwkwo7vazLc/l0HoW04/43v5MFH+uanX3GumEg==
+
+"@pixelastic/videogames-assets-skyrim@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-skyrim/-/videogames-assets-skyrim-0.0.2.tgz#0807f7bd6d19ca365b1006a5d4de0526b50b4cde"
+  integrity sha512-saPi+kPkHiOjmpldr5Jghp1S/3YOMJogcvKJ2UJNsaPASBsy12IdL1YNQSN67yjjmhJlGx/Pb2GrPl69g5FUDA==
+
+"@pixelastic/videogames-assets-spelunky@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-spelunky/-/videogames-assets-spelunky-0.0.2.tgz#a54dfc09002de5e7e2ffd5d08a631d33cefe2968"
+  integrity sha512-HpF94YNsrQuA5dK+rlTzmc1rsL6o6lvGJBSiNLFIOSh9B4aizqSbqX+aGzcshYyVrKkCSbQcNrhCz0xgpaH2Eg==
+
+"@pixelastic/videogames-assets-thief@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-thief/-/videogames-assets-thief-0.0.2.tgz#e287e07bbbcf8d3f87be17cbdc03a60e3447317f"
+  integrity sha512-4oITky6GiHpvCluqOd4UDww8XgvZHaIaejPzb+973AXTPfqLgZulQQ0AdnxhpZ5hb+K6vcKfWPs+se896iX+aA==
+
+"@pixelastic/videogames-assets-tinybrains@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tinybrains/-/videogames-assets-tinybrains-0.0.2.tgz#25cb1c0351c984ed6f1ed08f985b1f5c5d474a63"
+  integrity sha512-Q10/wX8rJpjKXbP9Qb9XHJXZmCZpyLkQD+hFInnsCWLwRTGIU8+9kbdcAPWJaOFOoKb40n9mT7OD8qma9M/MkQ==
+
+"@pixelastic/videogames-assets-tombraider@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tombraider/-/videogames-assets-tombraider-0.0.3.tgz#038408ccbfbc4b1c0c7b22d9492ca46fb95d8191"
+  integrity sha512-lqvdPGxq9HigCY5NiiEotTj3RdHSLYsCpc0Kg6B6mwlWp38bONLJj0enaZk2aKFrEOqiL+As/ziRT4cEohxPmg==
+
+"@pixelastic/videogames-assets-warhammerquest@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-warhammerquest/-/videogames-assets-warhammerquest-0.0.3.tgz#8b2194a61437c1e4803923940e6b18cf1ef53ca4"
+  integrity sha512-EovoldSpV9hngkKL1robrWomkGn/1U3dPp0XOKzTT9TapSdhTGvbDNSNsELI0WGBxVXI56FxMNeEl6Us4FkXyQ==
 
 "@release-it/conventional-changelog@1.1.0":
   version "1.1.0"
@@ -6378,11 +6453,6 @@ lazy-cache@^1.0.3:
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
   integrity sha1-odePw6UEdMuAhF07O24dpJpEbo4=
 
-lazysizes@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-5.2.0.tgz#352c2f095e1528b190f61178c140522dcf9ffce4"
-  integrity sha512-931KnHwsdCm7U7/S0GDj6FSkPvQ3ugGw65J5Plp2Mq1gBTPl9VShU+cIIX6uRr+dit+APDLmvx1FwjDll5bHLQ==
-
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
@@ -11306,8 +11376,3 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
-
-zooming@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/zooming/-/zooming-2.1.1.tgz#3e05006b4e10335235ca626244d053d90a9c7e72"
-  integrity sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==
