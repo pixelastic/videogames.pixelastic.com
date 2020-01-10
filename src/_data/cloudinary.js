@@ -1,5 +1,5 @@
 export default {
-  originPrefix: 'http://assets.pixelastic.com/videogames/',
+  originPrefix: 'https://assets.pixelastic.com/videogames/',
   cloudinaryPrefix:
     'http://res.cloudinary.com/pixelastic-videogames/image/fetch/',
   proxy(path, userOptions) {
