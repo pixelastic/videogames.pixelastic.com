@@ -12,9 +12,14 @@ import dishonored from '@pixelastic/videogames-assets-dishonored';
 import castlecrashers from '@pixelastic/videogames-assets-castlecrashers';
 import gta5 from '@pixelastic/videogames-assets-gta5';
 import hearthstone from '@pixelastic/videogames-assets-hearthstone';
-// {IMPORT}
+import bgeet from '@pixelastic/videogames-assets-bgeet';
 
 export default [
+  {
+    name: "Baldur's Gate Enhanced Edition Trilogy",
+    slug: 'bgeet',
+    manifest: bgeet,
+  },
   { name: 'Pillars of Eternity', slug: 'poe', manifest: poe },
   { name: 'Commandos', slug: 'commandos', manifest: commandos },
   { name: 'Warhammer Quest', slug: 'warhammerquest', manifest: warhammerquest },
@@ -33,5 +38,4 @@ export default [
   { name: 'Castlecrashers', slug: 'castlecrashers', manifest: castlecrashers },
   { name: 'Gta 5', slug: 'gta5', manifest: gta5 },
   { name: 'Hearthstone', slug: 'hearthstone', manifest: hearthstone },
-  // {CONFIG}}
 ];

@@ -958,6 +958,11 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@pixelastic/videogames-assets-bgeet@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-bgeet/-/videogames-assets-bgeet-0.0.3.tgz#ad2e07dee50018ec40d7e2c66cad54ee40500444"
+  integrity sha512-SwSfAFDME3FF/X205fJNubVwM2btNxS2aZLaS2M1tsrQtQtyVh/5gAEwZKykC9Wczj1ZgJs7O/kwOUHIB6t8/A==
+
 "@pixelastic/videogames-assets-castlecrashers@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-castlecrashers/-/videogames-assets-castlecrashers-0.0.2.tgz#4584c2a7d879170367a9369762fc8b136bcdd302"
