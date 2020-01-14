@@ -978,10 +978,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dishonored/-/videogames-assets-dishonored-0.0.2.tgz#865d2c34fe6bbe14a453045afedeb67a8536f32c"
   integrity sha512-RHNGb/7pdKYs9RkOc12dF114q2JkKIPhOyb4pJM86l5/S7eS69qSflzUM+Vyzbd+KQ1K3I3d3dStwYd8cdIlOg==
 
-"@pixelastic/videogames-assets-gta5@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta5/-/videogames-assets-gta5-0.0.2.tgz#5352f98803bcc3320641073151b0bc013ed186c6"
-  integrity sha512-1+gvtNHyFxebf4NMjp44PukSXrO+DnQq+TaWR2zlFtpIEna0ctznA6WXx+2EzKHLruMS2T2Ma9U/KsG4t+LLPA==
+"@pixelastic/videogames-assets-gta5@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta5/-/videogames-assets-gta5-0.0.3.tgz#2fb9ba6a5bcecc8cb51c8f94b9b7e419e52cfebc"
+  integrity sha512-qRZ/idKniibWN80FUSFG8Zis31oKREKWetzsDYTHIzMoHbafmm4cz7YrNc+sjCV/Oiggq9mgHDvfjoJl1DAcDw==
 
 "@pixelastic/videogames-assets-hearthstone@0.0.2":
   version "0.0.2"
