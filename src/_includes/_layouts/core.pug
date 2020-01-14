@@ -24,10 +24,10 @@ html(lang='en')
     meta(property='og:description', content=pageDescription)
     meta(property='og:image', content=`${pageUrl}${pageImage}`)
     script!=tweaks.ensureUrlTrailingSlashSource
-    link(rel="shortcut icon", href=`./favicon.png`)
+    link(rel="shortcut icon", href=`/favicon.png`)
     link(type="text/css", rel="stylesheet", href=revv(`${url.pathToRoot}style.css`))
     link(type="text/css", rel="stylesheet", href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
-    body.bg-black
+    body.bg-black.gray-2
       include /_includes/header
       .pt-8
         block content

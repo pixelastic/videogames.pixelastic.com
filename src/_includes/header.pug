@@ -3,6 +3,10 @@
     //- Title
     .fln.bold.white.text-6.flral.flrnw.flc.h-8.orbitron
       a(href=url.base) Videogames
+    //- Game name
+    if gameName
+      a.fla.cnw.flc.hidden.lg_flex(href=`/${gameSlug}`)
+        .gray-4.text-6.orbitron=gameName
     //- //- Hamburger menu
     //- .fla.flrnw.flrar.md_hidden
     //-   label.fill-current.border.rounded.p-02.pointer.hover_white(for="switch-1")

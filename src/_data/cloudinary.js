@@ -44,4 +44,17 @@ export default {
       blur: 500,
     });
   },
+  markdownHigh(path) {
+    return this.proxy(path, {
+      format: 'auto',
+      quality: 80,
+    });
+  },
+  markdownLow(path) {
+    return this.proxy(path, {
+      format: 'auto',
+      quality: 20,
+      blur: 500,
+    });
+  },
 };
