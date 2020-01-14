@@ -1028,10 +1028,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tombraider/-/videogames-assets-tombraider-0.0.3.tgz#038408ccbfbc4b1c0c7b22d9492ca46fb95d8191"
   integrity sha512-lqvdPGxq9HigCY5NiiEotTj3RdHSLYsCpc0Kg6B6mwlWp38bONLJj0enaZk2aKFrEOqiL+As/ziRT4cEohxPmg==
 
-"@pixelastic/videogames-assets-warhammerquest@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-warhammerquest/-/videogames-assets-warhammerquest-0.0.3.tgz#8b2194a61437c1e4803923940e6b18cf1ef53ca4"
-  integrity sha512-EovoldSpV9hngkKL1robrWomkGn/1U3dPp0XOKzTT9TapSdhTGvbDNSNsELI0WGBxVXI56FxMNeEl6Us4FkXyQ==
+"@pixelastic/videogames-assets-warhammerquest@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-warhammerquest/-/videogames-assets-warhammerquest-0.0.4.tgz#40e5afab7917ceba90e49e706ef34f7923f194a5"
+  integrity sha512-6fwBg1+eNLf4FDigeRUrOD4PFfggna0YpmxyHBgA+9plTXLP9GmKxFp1BjYvMYQicQgyPm6FOobvZz98ndJQyg==
 
 "@release-it/conventional-changelog@1.1.0":
   version "1.1.0"
