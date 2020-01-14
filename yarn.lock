@@ -1003,10 +1003,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe/-/videogames-assets-poe-0.0.10.tgz#a0da01a8aea725f5598bca139968f8e67d011fba"
   integrity sha512-KsnZsrIdv8Iu3xitjCbdcaRSpvrPaYtvS5AQ246gt7B3uywfdwkwo7vazLc/l0HoW04/43v5MFH+uanX3GumEg==
 
-"@pixelastic/videogames-assets-skyrim@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-skyrim/-/videogames-assets-skyrim-0.0.2.tgz#0807f7bd6d19ca365b1006a5d4de0526b50b4cde"
-  integrity sha512-saPi+kPkHiOjmpldr5Jghp1S/3YOMJogcvKJ2UJNsaPASBsy12IdL1YNQSN67yjjmhJlGx/Pb2GrPl69g5FUDA==
+"@pixelastic/videogames-assets-skyrim@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-skyrim/-/videogames-assets-skyrim-0.0.3.tgz#4212a19419f35ab8ba092016edb1a478c483b998"
+  integrity sha512-LKnMnxsL9fhAIEbg99qW9jcIlGStaxyVK3hDQ6ksHoCcGWqdhhG6TMzWitL2uG5uT2FbSWYwzCR76qkp9o+TkQ==
 
 "@pixelastic/videogames-assets-spelunky@0.0.2":
   version "0.0.2"
