@@ -1023,10 +1023,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tinybrains/-/videogames-assets-tinybrains-0.0.2.tgz#25cb1c0351c984ed6f1ed08f985b1f5c5d474a63"
   integrity sha512-Q10/wX8rJpjKXbP9Qb9XHJXZmCZpyLkQD+hFInnsCWLwRTGIU8+9kbdcAPWJaOFOoKb40n9mT7OD8qma9M/MkQ==
 
-"@pixelastic/videogames-assets-tombraider@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tombraider/-/videogames-assets-tombraider-0.0.3.tgz#038408ccbfbc4b1c0c7b22d9492ca46fb95d8191"
-  integrity sha512-lqvdPGxq9HigCY5NiiEotTj3RdHSLYsCpc0Kg6B6mwlWp38bONLJj0enaZk2aKFrEOqiL+As/ziRT4cEohxPmg==
+"@pixelastic/videogames-assets-tombraider@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tombraider/-/videogames-assets-tombraider-0.0.4.tgz#3d178f6d7431278dbcb13c09398a2e68767a9669"
+  integrity sha512-iq9mUfT4Sl+CrskdJMHggD8oMNs6W7arU5NclY4MuH4FVPNs5BiEyJAcID2IX/qOxV5lomigQkqkCOdORPdX7Q==
 
 "@pixelastic/videogames-assets-warhammerquest@0.0.3":
   version "0.0.3"
