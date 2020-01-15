@@ -4,6 +4,7 @@ block config
   - gameName = data.game.name
   - gameSlug = data.game.slug
   - gameManifest = data.game.manifest
+  - gameCover = `https://assets.pixelastic.com/videogames/${gameSlug}/cover.jpg`
   - tabIndex = data.tabIndex
   - tab = gameManifest[tabIndex]
   - assetPrefix = tab.assetPrefix
@@ -36,6 +37,10 @@ block prepend content
     - imagePrefixLow = data.cloudinary.markdownLow(`${assetPrefix}/`);
     - htmlText = markdown(tabText)
     - updatedText = _.replace(htmlText, /img src="(.*?)"/g, `img src="${imagePrefixLow}$1" data-src="${imagePrefixHigh}$1" class="lazyload"`)
-    .__markdown.w-100p.sm_w-80p.lg_w-50p.mx-auto.text-4.gray-5.p-3!=updatedText
+    - gameCover = data.cloudinary.fullImage(`${gameSlug}/cover.jpg`);
+    .relative.bg-top.bg-no-repeat.bg-contain(style=`background-image:url(${gameCover})`)
+      .absolute.z-1.top-0.left-0.right-0.bottom-0.bg-black.bg-opacity-90p
+      .__markdown.relative.z-2.w-100p.sm_w-80p.lg_w-50p.mx-auto
+        .text-4.gray-5.p-3!=updatedText
 
 

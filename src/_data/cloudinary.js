@@ -1,3 +1,12 @@
+import { v2 as cloudinary } from 'cloudinary';
+import { _ } from 'golgoth';
+import site from './site.json';
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_SECRET,
+});
+
 export default {
   originPrefix: 'https://assets.pixelastic.com/videogames/',
   cloudinaryPrefix:
@@ -55,6 +64,25 @@ export default {
       format: 'auto',
       quality: 20,
       blur: 500,
+    });
+  },
+  screenshot(pageUrl, userOptions) {
+    const options = {
+      viewport: '1600x900',
+      fullpage: false,
+      ...userOptions,
+    };
+    const suffix = _.chain(options)
+      .map((value, key) => {
+        return `${key}=${value}`;
+      })
+      .join('|')
+      .value();
+    const fullUrl = `${site.defaultUrl}${pageUrl}/url2png/${suffix}`;
+
+    return cloudinary.url(fullUrl, {
+      sign_url: true,
+      type: 'url2png',
     });
   },
 };
