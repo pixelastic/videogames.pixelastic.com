@@ -1184,10 +1184,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-misc/-/videogames-assets-misc-0.0.2.tgz#be4e6d73575271340250ddfa88a16455a9dca33d"
   integrity sha512-UI82bkUoOYI+kG0DygwYZLxRjfAfSpAM+Z4THZRSppiaJmssobDehVh3u9JqQBo635f3nn0NrwccglJdi1LH2A==
 
-"@pixelastic/videogames-assets-poe@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe/-/videogames-assets-poe-0.0.10.tgz#a0da01a8aea725f5598bca139968f8e67d011fba"
-  integrity sha512-KsnZsrIdv8Iu3xitjCbdcaRSpvrPaYtvS5AQ246gt7B3uywfdwkwo7vazLc/l0HoW04/43v5MFH+uanX3GumEg==
+"@pixelastic/videogames-assets-poe@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe/-/videogames-assets-poe-0.0.11.tgz#3e72d0a0346fe32c4dbe98cdb3601422e62014ed"
+  integrity sha512-zNdSp1IhFSIUGUKz3gKUJPPjhbifrlsTVcELdCbOn4uASlaJo9XeP52M75J21Pg4BEQFIZBMn2Fj77TU+QdtcQ==
 
 "@pixelastic/videogames-assets-skyrim@0.0.3":
   version "0.0.3"
