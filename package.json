@@ -15,11 +15,11 @@
     "@pixelastic/videogames-assets-tinybrains": "0.0.2",
     "@pixelastic/videogames-assets-tombraider": "0.0.4",
     "@pixelastic/videogames-assets-warhammerquest": "0.0.4",
-    "aberlaas": "1.0.1",
+    "aberlaas": "1.0.2",
     "cloudinary": "1.18.1",
     "firost": "1.0.1",
     "golgoth": "1.0.4",
-    "norska": "0.5.39"
+    "norska": "0.5.41"
   },
   "files": [
     "build/"
