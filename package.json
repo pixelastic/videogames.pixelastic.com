@@ -15,16 +15,13 @@
     "@pixelastic/videogames-assets-tinybrains": "0.0.2",
     "@pixelastic/videogames-assets-tombraider": "0.0.4",
     "@pixelastic/videogames-assets-warhammerquest": "0.0.4",
-    "aberlaas": "1.0.2",
+    "aberlaas": "1.1.1",
     "cloudinary": "1.18.1",
-    "firost": "1.0.1",
-    "golgoth": "1.0.4",
+    "firost": "1.2.1",
+    "golgoth": "1.1.1",
     "norska": "0.5.41"
   },
-  "files": [
-    "build/"
-  ],
-  "main": "build/index.js",
+  "name": "videogames.pixelastic.com",
   "scripts": {
     "build": "./scripts/build",
     "build:prod": "./scripts/build-prod",
@@ -38,5 +35,6 @@
     "serve": "./scripts/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
-  }
+  },
+  "version": "0.0.1"
 }

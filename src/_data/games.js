@@ -1,20 +1,20 @@
 /* eslint-disable import/no-commonjs */
-import bgeet from '@pixelastic/videogames-assets-bgeet';
-import castlecrashers from '@pixelastic/videogames-assets-castlecrashers';
-import commandos from '@pixelastic/videogames-assets-commandos';
-import dishonored from '@pixelastic/videogames-assets-dishonored';
-import gta5 from '@pixelastic/videogames-assets-gta5';
-import hearthstone from '@pixelastic/videogames-assets-hearthstone';
-import legoHarryPotterYear57 from '@pixelastic/videogames-assets-lego-harry-potter-year-5-7';
-import misc from '@pixelastic/videogames-assets-misc';
-import poe from '@pixelastic/videogames-assets-poe';
-import skyrim from '@pixelastic/videogames-assets-skyrim';
-import spelunky from '@pixelastic/videogames-assets-spelunky';
-import thief from '@pixelastic/videogames-assets-thief';
-import tinybrains from '@pixelastic/videogames-assets-tinybrains';
-import tombraider from '@pixelastic/videogames-assets-tombraider';
-import warhammerquest from '@pixelastic/videogames-assets-warhammerquest';
-export default [
+const bgeet = require('@pixelastic/videogames-assets-bgeet');
+const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
+const commandos = require('@pixelastic/videogames-assets-commandos');
+const dishonored = require('@pixelastic/videogames-assets-dishonored');
+const gta5 = require('@pixelastic/videogames-assets-gta5');
+const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
+const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
+const misc = require('@pixelastic/videogames-assets-misc');
+const poe = require('@pixelastic/videogames-assets-poe');
+const skyrim = require('@pixelastic/videogames-assets-skyrim');
+const spelunky = require('@pixelastic/videogames-assets-spelunky');
+const thief = require('@pixelastic/videogames-assets-thief');
+const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
+const tombraider = require('@pixelastic/videogames-assets-tombraider');
+const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
+module.exports = [
   {
     name: "Baldur's Gate Enhanced Edition Trilogy",
     slug: 'bgeet',

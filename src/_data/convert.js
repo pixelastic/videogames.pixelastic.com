@@ -1,7 +1,5 @@
-import { _ } from 'golgoth';
-export default {
+module.exports = {
   fromMarkdown(markdownText, data) {
-    console.info(_.keys(data));
     return data.markdown(markdownText);
   },
 };

@@ -1,7 +1,7 @@
-/* eslint-disable import/no-commonjs */
-import { _, pMap } from 'golgoth';
-import games from './src/_data/games';
-import path from 'path';
+const _ = require('golgoth/lib/lodash');
+const pMap = require('golgoth/lib/pMap');
+const games = require('./src/_data/games');
+const path = require('path');
 
 module.exports = {
   hooks: {

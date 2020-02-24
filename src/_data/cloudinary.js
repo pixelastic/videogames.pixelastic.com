@@ -1,16 +1,16 @@
-import { v2 as cloudinary } from 'cloudinary';
-import { _ } from 'golgoth';
-import site from './site.json';
+const { v2: cloudinary } = require('cloudinary');
+const _ = require('golgoth/lib/lodash');
+const site = require('./site.json');
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_SECRET,
 });
 
-export default {
+module.exports = {
   originPrefix: 'https://assets.pixelastic.com/videogames/',
   cloudinaryPrefix:
-    'http://res.cloudinary.com/pixelastic-videogames/image/fetch/',
+    'https://res.cloudinary.com/pixelastic-videogames/image/fetch/',
   proxy(path, userOptions) {
     let options = [];
     if (userOptions.width) {
