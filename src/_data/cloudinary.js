@@ -80,9 +80,16 @@ module.exports = {
       .value();
     const fullUrl = `${site.defaultUrl}${pageUrl}/url2png/${suffix}`;
 
-    return cloudinary.url(fullUrl, {
-      sign_url: true,
-      type: 'url2png',
-    });
+    try {
+      return cloudinary.url(fullUrl, {
+        sign_url: true,
+        type: 'url2png',
+      });
+    } catch (err) {
+      // Cloudinary config is not set
+      console.info('Error generating Cloudinary screenshots');
+      console.info('Check if CLOUDINARY env variables are set');
+      return '';
+    }
   },
 };

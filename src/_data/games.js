@@ -1,4 +1,3 @@
-/* eslint-disable import/no-commonjs */
 const bgeet = require('@pixelastic/videogames-assets-bgeet');
 const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
 const commandos = require('@pixelastic/videogames-assets-commandos');
