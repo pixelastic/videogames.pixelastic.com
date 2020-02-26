@@ -80,6 +80,8 @@ module.exports = {
       .value();
     const fullUrl = `${site.defaultUrl}${pageUrl}/url2png/${suffix}`;
 
+    // TODO: This should warn me in logs when I'm building without CLOUDINARY
+    // configured, but should warn only one
     try {
       return cloudinary.url(fullUrl, {
         sign_url: true,
