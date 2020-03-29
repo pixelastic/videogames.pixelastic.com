@@ -1332,10 +1332,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@pixelastic/videogames-assets-bgeet@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-bgeet/-/videogames-assets-bgeet-0.0.7.tgz#9d29060b8fdf016cfd9067f0e8a9cb180e5dffe4"
-  integrity sha512-dM2Ok3XzZVKu9ipG3SH759l49kzqa9qk3TZd5YxB88ilTcoz1p4SqjfEGWcY6Jf8fck64zd41a8Kxn8iR3+7kA==
+"@pixelastic/videogames-assets-bgeet@0.0.8":
+  version "0.0.8"
+  resolved "https://registry.npmjs.org/@pixelastic/videogames-assets-bgeet/-/videogames-assets-bgeet-0.0.8.tgz#c9fb2186aad1e141fb2bfda66f46217b678416ed"
+  integrity sha512-b1HcgNhHmiEScpJwwoH7mtCfpkj4gFlhY9any3nXf66H8Zz+//AhRh532+1GWJ96bUmLF1JJLZqEbjLlItm9AA==
 
 "@pixelastic/videogames-assets-castlecrashers@0.0.2":
   version "0.0.2"
@@ -8483,7 +8483,6 @@ norska@0.7.4:
 
 np@pixelastic/np#feat/no-2fa:
   version "6.2.0"
-  uid c3ab2e3b053c7da0ce40a572ca1616273ac080f8
   resolved "https://codeload.github.com/pixelastic/np/tar.gz/c3ab2e3b053c7da0ce40a572ca1616273ac080f8"
   dependencies:
     "@samverschueren/stream-to-observable" "^0.3.0"
