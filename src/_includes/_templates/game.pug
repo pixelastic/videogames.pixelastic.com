@@ -25,19 +25,21 @@ block prepend content
   if !tabText
     .flrw
       each asset in tabFiles
-        - thumbnailHigh = data.cloudinary.thumbnailHigh(`${gameSlug}/${asset}`);
-        - thumbnailLow = data.cloudinary.thumbnailLow(`${gameSlug}/${asset}`);
-        - fullImage = data.cloudinary.fullImage(`${gameSlug}/${asset}`);
-        a.fln.flcnw.flc.min-h-5.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox="gallery" href=fullImage)
-          img.js-zoom.lazyload(data-src=thumbnailHigh src=thumbnailLow)
+        - 
+          const assetUrl = `https://assets.pixelastic.com/videogames/${gameSlug}/${asset}`;
+          const zoomUrl = img(assetUrl, { quality: 80 });
+          const options = { quality: 80, width: 350 }
+        a.fln.flcnw.flc.min-h-5.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox="gallery" href=zoomUrl)
+          +img.object-cover.w-100p.h-100p.js-zoom(src=assetUrl options=options)
 
   //- Text
   if tabText
-    - imagePrefixHigh = data.cloudinary.markdownHigh(`${assetPrefix}/`);
-    - imagePrefixLow = data.cloudinary.markdownLow(`${assetPrefix}/`);
-    - htmlText = markdown(tabText)
-    - updatedText = _.replace(htmlText, /img src="(.*?)"/g, `img src="${imagePrefixLow}$1" data-src="${imagePrefixHigh}$1" class="lazyload"`)
-    - gameCover = data.cloudinary.fullImage(`${gameSlug}/cover.jpg`);
+    -
+      const baseUrl = `https://assets.pixelastic.com/videogames/${assetPrefix}/`
+      const attributes = lazyload(baseUrl)
+      htmlText = markdown(tabText)
+      updatedText = _.replace(htmlText, /img src="(.*?)"/g, `img src="${attributes.placeholder}$1" data-src="${attributes.full}$1" class="lazyload" loading="lazy"`)
+      gameCover = img(gameCover)
     .relative.bg-top.bg-no-repeat.bg-contain(style=`background-image:url(${gameCover})`)
       .absolute.z-1.top-0.left-0.right-0.bottom-0.bg-black.bg-opacity-90p
       .__markdown.relative.z-2.w-100p.sm_w-80p.lg_w-50p.mx-auto
