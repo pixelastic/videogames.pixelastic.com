@@ -3,11 +3,10 @@ block config
 
 - pageAuthor = pageAuthor || data.site.defaultAuthor
 - pageDescription = pageDescription || data.site.defaultDescription
-- pageImage = pageImage || data.site.defaultImage
 - pageTitle = pageTitle || data.site.defaultTitle
 - pageTwitter = pageTwitter || data.site.defaultTwitter
 - pageUrl = pageUrl || data.site.defaultUrl
-- pageImage = data.cloudinary.screenshot(url.here)
+- pageImage = pageImage || screenshot()
 
 doctype html
 html(lang='en')
@@ -23,7 +22,7 @@ html(lang='en')
     meta(property='og:url', content=pageUrl)
     meta(property='og:title', content=pageTitle)
     meta(property='og:description', content=pageDescription)
-    meta(property='og:image', content=pageImage)
+    meta(property='og:image', content!=pageImage)
     script!=tweaks.ensureUrlTrailingSlashSource
     link(rel="shortcut icon", href=`/favicon.png`)
     link(type="text/css", rel="stylesheet", href=revv(`${url.pathToRoot}style.css`))
@@ -32,7 +31,7 @@ html(lang='en')
       include /_includes/header
       .pt-8
         block content
-      script(src="https://cdn.jsdelivr.net/combine/npm/jquery@3.4.1,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/lazysizes@5.2.0")
+      script(src="https://cdn.jsdelivr.net/combine/npm/jquery@3.4.1,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
       each jsFile in runtime.jsFiles
         script(src=`${url.pathToRoot}${jsFile}`)
 
