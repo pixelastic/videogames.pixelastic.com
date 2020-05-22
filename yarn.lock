@@ -1416,10 +1416,10 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@pixelastic/videogames-assets-bgeet@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-bgeet/-/videogames-assets-bgeet-0.0.10.tgz#5bd4d12648d21dfe3b92bb4f537260e33ab81851"
-  integrity sha512-MWujb4VFpUte2b5TsDGRFDT4S3tUpGB/iOtT0exBSGylxCLVhNB2fgFxVbR6NK+jHVQ82Xv5mmsh58dXSKfVnA==
+"@pixelastic/videogames-assets-bgeet@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-bgeet/-/videogames-assets-bgeet-0.0.11.tgz#4093a75211e2805bfa38a1f170a9f8150eb9662e"
+  integrity sha512-u0P1cWTUcPVytkEBfTfBNEajGLBFm93pDrVIhGKZpgF/TEKq+0drhrcjIsSd9HfK3onInaTHIJxRrPC9vMmDOQ==
 
 "@pixelastic/videogames-assets-castlecrashers@0.0.2":
   version "0.0.2"
