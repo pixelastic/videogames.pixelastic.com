@@ -12,7 +12,7 @@ module.exports = {
       const template = '_includes/_templates/game.pug';
 
       // Update each game to add url to their tabs
-      const allGames = _.map(games, game => {
+      const allGames = _.map(games, (game) => {
         const gameSlug = game.slug;
         const newManifest = _.map(game.manifest, (tab, tabIndex) => {
           const isFirstTab = tabIndex === 0;
@@ -40,7 +40,7 @@ module.exports = {
       });
 
       // For each game
-      await pMap(allGames, async gameData => {
+      await pMap(allGames, async (gameData) => {
         // For each tab
         await pMap(gameData.manifest, async (tab, tabIndex) => {
           const destination = tab.destination;
