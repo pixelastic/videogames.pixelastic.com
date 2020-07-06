@@ -1,10 +1,5 @@
 extends /_includes/_layouts/core
 
-block config
-  //- - pageTitle = "All games"
-  //- - pageDescription = ""
-  //- see also: pageAuthor, pageImage, pageTwitter, pageUrl
-
 block content
   .flrw
     each game in _.sortBy(data.games, ['slug'])

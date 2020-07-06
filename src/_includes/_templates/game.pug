@@ -1,6 +1,6 @@
 extends /_includes/_layouts/core
 
-block config
+block meta
   - gameName = data.game.name
   - gameSlug = data.game.slug
   - gameManifest = data.game.manifest
@@ -10,7 +10,7 @@ block config
   - assetPrefix = tab.assetPrefix
   - tabFiles = tab.files
   - tabText = tab.text
-  - pageTitle = `Videogames - ${gameName}`
+  - meta.title = `Videogames - ${gameName}`
 
 
 block prepend content
