@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@pixelastic/videogames-assets-bgeet": "0.0.11",
+    "@pixelastic/videogames-assets-bgeet": "0.1.0",
     "@pixelastic/videogames-assets-castlecrashers": "0.0.2",
     "@pixelastic/videogames-assets-commandos": "0.0.3",
     "@pixelastic/videogames-assets-dishonored": "0.0.2",
