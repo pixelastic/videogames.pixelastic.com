@@ -1,4 +1,4 @@
-extends /_includes/_layouts/core
+extends /_includes/layouts/core
 
 block meta
   - gameName = data.game.name
@@ -34,15 +34,7 @@ block prepend content
 
   //- Text
   if tabText
-    -
-      const baseUrl = `https://assets.pixelastic.com/videogames/${assetPrefix}/`
-      const attributes = lazyload(baseUrl)
-      htmlText = markdown(tabText)
-      updatedText = _.replace(htmlText, /img src="(.*?)"/g, `img src="${attributes.placeholder}$1" data-src="${attributes.full}$1" class="lazyload" loading="lazy"`)
+    - 
       gameCover = img(gameCover)
-    .relative.bg-top.bg-no-repeat.bg-contain(style=`background-image:url(${gameCover})`)
-      .absolute.z-1.top-0.left-0.right-0.bottom-0.bg-black.bg-opacity-90p
-      .__markdown.relative.z-2.w-100p.sm_w-80p.lg_w-50p.mx-auto
-        .text-4.gray-5.p-3!=updatedText
-
-
+      imgUrlPrefix = `https://assets.pixelastic.com/videogames/${assetPrefix}`
+    .prose.md_prose-xl.lg_prose-2xl.mx-auto.gray-5.mt-1!=markdown(tabText, { imgUrlPrefix })

@@ -5,17 +5,17 @@
 
 @import '_styles/fonts.css';
 
-.__markdown {
+.prose {
   h2 {
     @apply orbitron text-6 white;
   }
-  p {
-    @apply mb-1;
-  }
-  img {
-    @apply inline-block mr-2;
-  }
-  p img:first-child {
-    @apply mt-5;
-  }
+  /* p { */
+  /*   @apply mb-1; */
+  /* } */
+  /* img { */
+  /*   @apply inline-block mr-2; */
+  /* } */
+  /* p img:first-child { */
+  /*   @apply mt-5; */
+  /* } */
 }
