@@ -1,5 +1,5 @@
-const _ = require('golgoth/lib/lodash');
-const pMap = require('golgoth/lib/pMap');
+const _ = require('golgoth/lodash');
+const pMap = require('golgoth/pMap');
 const games = require('./src/_data/games');
 const path = require('path');
 
