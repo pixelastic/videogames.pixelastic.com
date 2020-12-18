@@ -1,13 +1,10 @@
-block meta
-  //- This block is empty on purpose; so each page can override the meta object
-
 doctype html
 html(lang='en')
   +norska_head
     link(type="text/css", rel="stylesheet", href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css")
 
   body.bg-black.gray-2
-    include /_includes/header
+    include ../header
     .pt-8
       block content
 

@@ -1,21 +1,14 @@
-@import 'tailwindcss/base';
-@import 'norska/reset';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'theme:style.css';
 
 @import '_styles/fonts.css';
 
-.prose {
-  h2 {
-    @apply orbitron text-6 white;
+html {
+  .prose {
+    h2 {
+      @apply orbitron text-6 white;
+    }
+    h2 a {
+      @apply current-color;
+    }
   }
-  /* p { */
-  /*   @apply mb-1; */
-  /* } */
-  /* img { */
-  /*   @apply inline-block mr-2; */
-  /* } */
-  /* p img:first-child { */
-  /*   @apply mt-5; */
-  /* } */
 }

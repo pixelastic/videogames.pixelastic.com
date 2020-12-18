@@ -35,6 +35,7 @@ module.exports = {
           manifest: newManifest,
         };
       });
+      console.info(allGames);
 
       // For each game
       await pMap(allGames, async (gameData) => {
@@ -42,6 +43,9 @@ module.exports = {
         await pMap(gameData.manifest, async (tab, tabIndex) => {
           const destination = tab.destination;
           const pageData = {
+            meta: {
+              title: `Videogames - ${gameData.name}`,
+            },
             game: gameData,
             tabIndex,
           };
