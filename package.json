@@ -15,11 +15,11 @@
     "@pixelastic/videogames-assets-tinybrains": "0.0.2",
     "@pixelastic/videogames-assets-tombraider": "0.0.4",
     "@pixelastic/videogames-assets-warhammerquest": "0.0.4",
-    "norska": "1.8.0"
+    "norska": "2.3.0"
   },
   "devDependencies": {
-    "aberlaas": "1.13.3",
-    "firost": "2.0.6",
+    "aberlaas": "1.22.0",
+    "firost": "2.13.1",
     "golgoth": "2.0.0"
   },
   "files": [],
