@@ -35,7 +35,6 @@ module.exports = {
           manifest: newManifest,
         };
       });
-      console.info(allGames);
 
       // For each game
       await pMap(allGames, async (gameData) => {
