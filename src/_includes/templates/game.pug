@@ -18,7 +18,7 @@ block prepend content
         - 
           const assetUrl = `https://assets.pixelastic.com/videogames/${game.slug}/${asset}`;
           const zoomUrl = img(assetUrl, { quality: 80 });
-          const options = { quality: 80, width: 350 }
+          const options = { quality: 80, width: 350}
         a.flex.flex-none.min-h-5.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(data-fancybox="gallery" href=zoomUrl)
           +img.object-cover.w-100p.h-100p.js-zoom(src=assetUrl options=options)
 
@@ -27,4 +27,4 @@ block prepend content
     - 
       gameCover = img(`https://assets.pixelastic.com/videogames/${game.slug}/cover.jpg`)
       imgUrlPrefix = `https://assets.pixelastic.com/videogames/${tab.assetPrefix}`
-    .prose.md_prose-xl.lg_prose-2xl.mx-auto.gray-5.mt-1!=markdown(tab.text, { imgUrlPrefix })
+    .prose.px-1.md_prose-xl.lg_prose-2xl.mx-auto.gray-5.mt-1!=markdown(tab.text, { imgUrlPrefix })

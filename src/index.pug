@@ -1,9 +1,9 @@
 block content
-  .flrw
+  .flex.flex-wrap
     each game in _.sortBy(data.games, ['slug'])
       - const options = { width: 400 }
-      a.fln.pointer.relative.h-12.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(href=`${game.slug}/`)
+      a.flex-none.pointer.relative.h-12.w-100p.sm_w-50p.md_w-33p.lg_w-25p.xl_w-20p(href=`${game.slug}/`)
         +img.object-cover.w-100p.h-100p(src=`https://assets.pixelastic.com/videogames/${game.slug}/cover.jpg` alt=game.name options=options)
         .absolute.top-0.right-0.bottom-0.left-0.bg-black.bg-opacity-75p.hover_bg-opacity-50p
-          .flcnw.h-100p.flc.gray-5.hover_white
+          .flex.flex-col.h-100p.flex-center.gray-5.hover_white
             .orbitron.text-4.text-center.text-shadow=game.name
