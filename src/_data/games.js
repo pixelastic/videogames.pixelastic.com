@@ -13,6 +13,7 @@ const thief = require('@pixelastic/videogames-assets-thief');
 const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
+const talosPrinciple = require('@pixelastic/videogames-assets-talos-principle');
 module.exports = [
   {
     name: "Baldur's Gate Enhanced Edition Trilogy",
@@ -21,6 +22,11 @@ module.exports = [
   },
   { name: 'Pillars of Eternity', slug: 'poe', manifest: poe },
   { name: 'Commandos', slug: 'commandos', manifest: commandos },
+  {
+    name: 'The Talos Principle',
+    slug: 'talos-principle',
+    manifest: talosPrinciple,
+  },
   {
     name: 'Warhammer Quest',
     slug: 'warhammerquest',
