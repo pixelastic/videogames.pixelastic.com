@@ -14,6 +14,7 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 const talosPrinciple = require('@pixelastic/videogames-assets-talos-principle');
+const thronebreaker = require('@pixelastic/videogames-assets-thronebreaker');
 module.exports = [
   {
     name: "Baldur's Gate Enhanced Edition Trilogy",
@@ -26,6 +27,11 @@ module.exports = [
     name: 'The Talos Principle',
     slug: 'talos-principle',
     manifest: talosPrinciple,
+  },
+  {
+    name: 'Thronebreaker: The Witcher Tales',
+    slug: 'thronebreaker',
+    manifest: thronebreaker,
   },
   {
     name: 'Warhammer Quest',

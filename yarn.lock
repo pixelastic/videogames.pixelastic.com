@@ -2180,6 +2180,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-thief/-/videogames-assets-thief-0.0.2.tgz#e287e07bbbcf8d3f87be17cbdc03a60e3447317f"
   integrity sha512-4oITky6GiHpvCluqOd4UDww8XgvZHaIaejPzb+973AXTPfqLgZulQQ0AdnxhpZ5hb+K6vcKfWPs+se896iX+aA==
 
+"@pixelastic/videogames-assets-thronebreaker@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/@pixelastic/videogames-assets-thronebreaker/-/videogames-assets-thronebreaker-0.0.2.tgz#f98256cddf8c4018aaabc9f13fb510b9435678f4"
+  integrity sha512-bbpSTMOsS07uFdgDTSJX+/bdIzMk1X5JzeoLR/aWm+WfzWoKQ/CXSO5CsfszTmA9UciGtTxYIvnYFvFKGDGHoQ==
+
 "@pixelastic/videogames-assets-tinybrains@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-tinybrains/-/videogames-assets-tinybrains-0.0.2.tgz#25cb1c0351c984ed6f1ed08f985b1f5c5d474a63"
