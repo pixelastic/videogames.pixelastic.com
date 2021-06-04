@@ -15,12 +15,12 @@
     "@pixelastic/videogames-assets-thief": "0.0.2",
     "@pixelastic/videogames-assets-thronebreaker": "0.0.2",
     "@pixelastic/videogames-assets-tinybrains": "0.0.2",
-    "@pixelastic/videogames-assets-tombraider": "0.0.4",
+    "@pixelastic/videogames-assets-tombraider": "0.0.5",
     "@pixelastic/videogames-assets-warhammerquest": "0.0.4",
-    "norska": "2.3.4"
+    "norska": "2.3.2"
   },
   "devDependencies": {
-    "aberlaas": "1.22.0",
+    "aberlaas": "1.23.0",
     "firost": "2.13.1",
     "golgoth": "2.0.0"
   },
