@@ -22,7 +22,7 @@
     "norska": "2.9.0"
   },
   "devDependencies": {
-    "aberlaas": "1.25.0",
+    "aberlaas": "1.25.1",
     "firost": "2.17.0",
     "golgoth": "2.1.0"
   },
