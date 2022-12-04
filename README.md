@@ -17,10 +17,20 @@ The repositories of those `videogames-assets-*` also contains the actual assets,
 but they are not published to npm. Instead, they are pushed on
 `assets.pixelastic.com`, a server I own.
 
-Whenever I want to add screenshots of a new game, I first need to create a new
-`videogames-assets-*` repository. I can use
-https://github.com/pixelastic/videogames-assets-TEMPLATE as a template to create
-the new one.
+## Adding screenshots for a new game
 
-I have a `videogames-helper` module that helps
-in generating the manifest, uploading the assets and releasing the asset module.
+First, create a new private repo with `vdc -p videogames-assets-{gameName}`.
+
+Then, go into `videogames-assets-TEMPLATES` and add a new remote pointing to
+this new repo with `vrc {gameName} pixelastic/videogames-assets-{gameName}`.
+
+Fetch that remote with `git fetch {gameName}` and switch to it with `vrs
+{gameName}`. You can now push force the template to the new repo with `vbps -f`.
+
+Now, head back to the asset repo, add the required files into `assets/gameplay`
+and update the package name in `package.json`.
+
+Run `yarn build` to build the manifest, `yarn deploy` to push files and `yarn
+release` to release the npm module.
+
+Once published, you can add the new game to the data of the main website.

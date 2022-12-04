@@ -10,6 +10,7 @@ const misc = require('@pixelastic/videogames-assets-misc');
 const poe = require('@pixelastic/videogames-assets-poe');
 const skyrim = require('@pixelastic/videogames-assets-skyrim');
 const spelunky = require('@pixelastic/videogames-assets-spelunky');
+const superMarioOdyssey = require('@pixelastic/videogames-assets-super-mario-odyssey');
 const talosPrinciple = require('@pixelastic/videogames-assets-talos-principle');
 const thief = require('@pixelastic/videogames-assets-thief');
 const thronebreaker = require('@pixelastic/videogames-assets-thronebreaker');
@@ -17,6 +18,11 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
+  {
+    name: 'Super Mario Odyssey',
+    slug: 'super-mario-odyssey',
+    manifest: superMarioOdyssey,
+  },
   { name: 'GTA 3', slug: 'gta3', manifest: gta3 },
   {
     name: "Baldur's Gate Enhanced Edition Trilogy",

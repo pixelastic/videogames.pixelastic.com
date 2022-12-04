@@ -2590,6 +2590,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-spelunky/-/videogames-assets-spelunky-0.0.2.tgz#a54dfc09002de5e7e2ffd5d08a631d33cefe2968"
   integrity sha512-HpF94YNsrQuA5dK+rlTzmc1rsL6o6lvGJBSiNLFIOSh9B4aizqSbqX+aGzcshYyVrKkCSbQcNrhCz0xgpaH2Eg==
 
+"@pixelastic/videogames-assets-super-mario-odyssey@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-super-mario-odyssey/-/videogames-assets-super-mario-odyssey-0.0.3.tgz#588d67cd45b5d1616ffb50feba88be5dfecce072"
+  integrity sha512-lIH5mXnSqIWdZx5HrfVwa5jFJpTRWXK96VFUdwZqX1DDK40PWe3cBiMUVJ5oaNlfxFAZVywfbDO01FGbwl15DQ==
+
 "@pixelastic/videogames-assets-talos-principle@0.1.0":
   version "0.1.0"
   resolved "https://registry.npmjs.org/@pixelastic/videogames-assets-talos-principle/-/videogames-assets-talos-principle-0.1.0.tgz#849fde24b5edbf0d4b74ba645fabbefc1ca51e6c"
