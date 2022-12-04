@@ -5,7 +5,8 @@
 This repository holds the code for the static website hosted on
 videogames.pixelastic.com
 
-It is an empty shell, that does not contain any assets. Its responsibility is to build the pages.
+It is an empty shell, that does not contain any assets. Its responsibility is to
+build the pages.
 
 Asset manifests are stored in npm packages named
 `@pixelastic/videogames-assets-GAMENAME`. Those packages contain
@@ -17,8 +18,9 @@ but they are not published to npm. Instead, they are pushed on
 `assets.pixelastic.com`, a server I own.
 
 Whenever I want to add screenshots of a new game, I first need to create a new
-`videogames-assets-*` repository. I create a new private repo, then
-copy-paste file structure from another asset repository.
+`videogames-assets-*` repository. I can use
+https://github.com/pixelastic/videogames-assets-TEMPLATE as a template to create
+the new one.
 
 I have a `videogames-helper` module that helps
 in generating the manifest, uploading the assets and releasing the asset module.
