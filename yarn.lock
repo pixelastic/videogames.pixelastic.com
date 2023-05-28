@@ -2530,10 +2530,10 @@
   dependencies:
     "@octokit/openapi-types" "^9.3.0"
 
-"@pixelastic/videogames-assets-batman-arkham-city@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-batman-arkham-city/-/videogames-assets-batman-arkham-city-0.0.3.tgz#d45637e5b92d516194c1c7ab1724abaed936aeea"
-  integrity sha512-RFhfSyMwDnULKopgiBwQq1kuuQmTeFRDfkSlVQiJxwhdDzXT+cnhCRkw4b9epUCtBb0AHV9H6NiaFjknfG2MLg==
+"@pixelastic/videogames-assets-batman-arkham-city@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-batman-arkham-city/-/videogames-assets-batman-arkham-city-0.0.4.tgz#2e3a7bf5c5c32258c596496321c91403c2ac78d0"
+  integrity sha512-ur+kmARj2jpXWhG+7ABPzfTnnoajOmbmMYdI7wXi4P/uj76yvhDXrVSc3whGfg3jpXDk7s34YICS68C8zo1Uzg==
 
 "@pixelastic/videogames-assets-bgeet@0.1.1":
   version "0.1.1"
