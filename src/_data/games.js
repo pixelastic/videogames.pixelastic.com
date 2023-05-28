@@ -1,4 +1,5 @@
 const bgeet = require('@pixelastic/videogames-assets-bgeet');
+const batmanArkhamCity = require('@pixelastic/videogames-assets-batman-arkham-city');
 const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
 const commandos = require('@pixelastic/videogames-assets-commandos');
 const dishonored = require('@pixelastic/videogames-assets-dishonored');
@@ -18,11 +19,12 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
-  // {
-  //   name: 'Batman Arkham City',
-  //   slug: 'batman-arkham-city',
-  //   manifest: batmanArkhamCity
-  // },
+  {
+    name: 'Batman Arkham City',
+    date: '2017-07-03',
+    slug: 'batman-arkham-city',
+    manifest: batmanArkhamCity,
+  },
   {
     name: "Baldur's Gate Enhanced Edition Trilogy",
     date: '2017-09-12',
