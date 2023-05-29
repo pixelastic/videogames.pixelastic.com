@@ -10,5 +10,17 @@ html {
     h2 a {
       @apply current-color;
     }
+    h3 {
+      @apply orbitron white;
+    }
+    h3 a {
+      @apply current-color;
+    }
+    strong {
+      @apply white;
+    }
+    tr th {
+      @apply white;
+    }
   }
 }

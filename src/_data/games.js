@@ -9,6 +9,7 @@ const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
 const misc = require('@pixelastic/videogames-assets-misc');
 const poe = require('@pixelastic/videogames-assets-poe');
+const poe2 = require('@pixelastic/videogames-assets-poe2');
 const skyrim = require('@pixelastic/videogames-assets-skyrim');
 const spelunky = require('@pixelastic/videogames-assets-spelunky');
 const superMarioOdyssey = require('@pixelastic/videogames-assets-super-mario-odyssey');
@@ -19,70 +20,12 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
-  {
-    name: 'Batman Arkham City',
-    date: '2017-07-03',
-    slug: 'batman-arkham-city',
-    manifest: batmanArkhamCity,
-  },
-  {
-    name: "Baldur's Gate Enhanced Edition Trilogy",
-    date: '2017-09-12',
-    slug: 'bgeet',
-    manifest: bgeet,
-  },
-  {
-    name: 'Castlecrashers',
-    date: '2017-10-23',
-    slug: 'castlecrashers',
-    manifest: castlecrashers,
-  },
-  {
-    name: 'Commandos',
-    date: '2016-06-19',
-    slug: 'commandos',
-    manifest: commandos,
-  },
-  {
-    name: 'Dishonored',
-    date: '2017-09-28',
-    slug: 'dishonored',
-    manifest: dishonored,
-  },
   { name: 'GTA 3', date: '2022-11-30', slug: 'gta3', manifest: gta3 },
-  { name: 'GTA 5', date: '2016-07-07', slug: 'gta5', manifest: gta5 },
   {
-    name: 'Hearthstone',
-    date: '2016-09-11',
-    slug: 'hearthstone',
-    manifest: hearthstone,
-  },
-  {
-    name: 'Lego Harry Potter Years 5-7',
-    date: '2017-10-14',
-    slug: 'lego-harry-potter-year-5-7',
-    manifest: legoHarryPotterYear57,
-  },
-  { name: 'Misc', date: '2015-10-25', slug: 'misc', manifest: misc },
-  {
-    name: 'Pillars of Eternity',
-    date: '2015-09-23',
-    slug: 'poe',
-    manifest: poe,
-  },
-  // { name: 'Pillars of Eternity 2', date: '2021-10-04', slug: 'poe2', manifest: poe2 },
-  { name: 'Skyrim', date: '2016-08-30', slug: 'skyrim', manifest: skyrim },
-  {
-    name: 'Spelunky',
-    date: '2017-11-03',
-    slug: 'spelunky',
-    manifest: spelunky,
-  },
-  {
-    name: 'Super Mario Odyssey',
-    date: '2017-02-22',
-    slug: 'super-mario-odyssey',
-    manifest: superMarioOdyssey,
+    name: 'Pillars of Eternity 2',
+    date: '2021-09-15',
+    slug: 'poe2',
+    manifest: poe2,
   },
   {
     name: 'The Talos Principle',
@@ -90,12 +33,17 @@ module.exports = [
     slug: 'talos-principle',
     manifest: talosPrinciple,
   },
-  { name: 'Thief', date: '2017-10-06', slug: 'thief', manifest: thief },
   {
     name: 'Thronebreaker: The Witcher Tales',
     date: '2021-01-17',
     slug: 'thronebreaker',
     manifest: thronebreaker,
+  },
+  {
+    name: 'Spelunky',
+    date: '2017-11-03',
+    slug: 'spelunky',
+    manifest: spelunky,
   },
   {
     name: 'Tinybrains',
@@ -104,15 +52,73 @@ module.exports = [
     manifest: tinybrains,
   },
   {
-    name: 'Tombraider',
-    date: '2016-01-13',
-    slug: 'tombraider',
-    manifest: tombraider,
+    name: 'Castlecrashers',
+    date: '2017-10-23',
+    slug: 'castlecrashers',
+    manifest: castlecrashers,
+  },
+  {
+    name: 'Lego Harry Potter Years 5-7',
+    date: '2017-10-14',
+    slug: 'lego-harry-potter-year-5-7',
+    manifest: legoHarryPotterYear57,
+  },
+  { name: 'Thief', date: '2017-10-06', slug: 'thief', manifest: thief },
+  {
+    name: 'Dishonored',
+    date: '2017-09-28',
+    slug: 'dishonored',
+    manifest: dishonored,
+  },
+  {
+    name: "Baldur's Gate Enhanced Edition Trilogy",
+    date: '2017-09-12',
+    slug: 'bgeet',
+    manifest: bgeet,
+  },
+  {
+    name: 'Batman Arkham City',
+    date: '2017-07-03',
+    slug: 'batman-arkham-city',
+    manifest: batmanArkhamCity,
+  },
+  {
+    name: 'Super Mario Odyssey',
+    date: '2017-02-22',
+    slug: 'super-mario-odyssey',
+    manifest: superMarioOdyssey,
+  },
+  {
+    name: 'Hearthstone',
+    date: '2016-09-11',
+    slug: 'hearthstone',
+    manifest: hearthstone,
+  },
+  { name: 'Skyrim', date: '2016-08-30', slug: 'skyrim', manifest: skyrim },
+  { name: 'GTA 5', date: '2016-07-07', slug: 'gta5', manifest: gta5 },
+  {
+    name: 'Commandos',
+    date: '2016-06-19',
+    slug: 'commandos',
+    manifest: commandos,
   },
   {
     name: 'Warhammer Quest',
     date: '2016-02-21',
     slug: 'warhammerquest',
     manifest: warhammerquest,
+  },
+  {
+    name: 'Tombraider',
+    date: '2016-01-13',
+    slug: 'tombraider',
+    manifest: tombraider,
+  },
+  { name: 'Misc', date: '2015-10-25', slug: 'misc', manifest: misc },
+  {
+    name: 'Pillars of Eternity',
+    date: '2015-09-23',
+    slug: 'poe',
+    manifest: poe,
   },
 ];

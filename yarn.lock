@@ -2580,6 +2580,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-misc/-/videogames-assets-misc-0.0.2.tgz#be4e6d73575271340250ddfa88a16455a9dca33d"
   integrity sha512-UI82bkUoOYI+kG0DygwYZLxRjfAfSpAM+Z4THZRSppiaJmssobDehVh3u9JqQBo635f3nn0NrwccglJdi1LH2A==
 
+"@pixelastic/videogames-assets-poe2@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe2/-/videogames-assets-poe2-0.1.5.tgz#cd817b4615a185138d6ffdaa4d924aca9c3e9d55"
+  integrity sha512-1NZ13P1Xim91ojfkm/63BJvMsNmJKXfbdR1zLIum4IR0P10Wqz0zG0LYSpkVBtjxdgTTMhyc2jSCrKdyK3nxkg==
+
 "@pixelastic/videogames-assets-poe@0.0.11":
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe/-/videogames-assets-poe-0.0.11.tgz#3e72d0a0346fe32c4dbe98cdb3601422e62014ed"
