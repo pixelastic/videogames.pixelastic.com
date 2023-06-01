@@ -2540,6 +2540,11 @@
   resolved "https://registry.npmjs.org/@pixelastic/videogames-assets-bgeet/-/videogames-assets-bgeet-0.1.1.tgz#51afef2df7f68fbdc76ed2feb6ba2245858dd024"
   integrity sha512-GFwP4LXPnk91YKy1sNoIWuUA2F/34X2VNE9HdQ8Nvpzazw6cBSRKdQbBexDneuPUMS+z5F/fVwcL1tEJn6StKw==
 
+"@pixelastic/videogames-assets-breath-of-the-wild@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-breath-of-the-wild/-/videogames-assets-breath-of-the-wild-0.1.1.tgz#84f341005de3a60cac2845a734d07081c4211ffe"
+  integrity sha512-4vPnIh7HC5sYkpB5BuQgHWT+WFdu3sBWnq+IHDrR0DnT5d7d1ONLZ3UrR9GZ2jTrpyRZ9NKTho0QjifE8ShE5g==
+
 "@pixelastic/videogames-assets-castlecrashers@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-castlecrashers/-/videogames-assets-castlecrashers-0.0.2.tgz#4584c2a7d879170367a9369762fc8b136bcdd302"
