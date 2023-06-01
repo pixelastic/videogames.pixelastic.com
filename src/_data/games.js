@@ -43,7 +43,7 @@ module.exports = [
   {
     name: 'Breath of the Wild',
     date: '2017-12-25',
-    slug: 'botw',
+    slug: 'breath-of-the-wild',
     manifest: breathOfTheWild,
   },
   {
