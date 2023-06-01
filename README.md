@@ -24,13 +24,14 @@ First, create a new private repo with `vdc -p videogames-assets-{gameName}`.
 Then, go into `videogames-assets-TEMPLATES` and add a new remote pointing to
 this new repo with `vrc {gameName} pixelastic/videogames-assets-{gameName}`.
 
-Fetch that remote with `git fetch {gameName}` and switch to it with `vrs
-{gameName}`. You can now push force the template to the new repo with `vbps -f`.
+Switch to that remote with `vrs {gameName}`. You can now push force the template
+to the new repo with `vbps -f`.
 
-Now, head back to the asset repo, add the required files into `assets/gameplay`
-and update the package name in `package.json`.
+Now, head back to the asset repo, run `yarn` to get the dependencies and add the
+required files into `assets/gameplay` and update the package name in
+`package.json`.
 
 Run `yarn build` to build the manifest, `yarn deploy` to push files and `yarn
-release` to release the npm module.
+release patch` to release the npm module.
 
 Once published, you can add the new game to the data of the main website.
