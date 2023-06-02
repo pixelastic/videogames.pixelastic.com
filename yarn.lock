@@ -2570,6 +2570,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dishonored/-/videogames-assets-dishonored-0.0.2.tgz#865d2c34fe6bbe14a453045afedeb67a8536f32c"
   integrity sha512-RHNGb/7pdKYs9RkOc12dF114q2JkKIPhOyb4pJM86l5/S7eS69qSflzUM+Vyzbd+KQ1K3I3d3dStwYd8cdIlOg==
 
+"@pixelastic/videogames-assets-gta-vice-city@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta-vice-city/-/videogames-assets-gta-vice-city-0.0.2.tgz#df22bc29c21f99a09201c72c297ab4a6868a890a"
+  integrity sha512-Hpq4Xf+AZ4favOyiJ0/i1sv5ZzAOkHs7s+xp2DBo1rcXkwTS9rbybtBno7K8PwNZcz8jMdwzA7H4eFkWQmvH9w==
+
 "@pixelastic/videogames-assets-gta3@0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta3/-/videogames-assets-gta3-0.0.3.tgz#d708b2d4cc84e335cb9e4ef6ac0093e842c9a839"

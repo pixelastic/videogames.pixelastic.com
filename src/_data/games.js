@@ -8,6 +8,7 @@ const darkestDungeon = require('@pixelastic/videogames-assets-darkest-dungeon');
 const dishonored = require('@pixelastic/videogames-assets-dishonored');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
 const gta5 = require('@pixelastic/videogames-assets-gta5');
+const gtaViceCity = require('@pixelastic/videogames-assets-gta-vice-city');
 const hades = require('@pixelastic/videogames-assets-hades');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
@@ -25,6 +26,12 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
+  {
+    name: 'GTA Vice City',
+    date: '2022-12-01',
+    slug: 'gta-vice-city',
+    manifest: gtaViceCity,
+  },
   { name: 'GTA 3', date: '2022-11-30', slug: 'gta3', manifest: gta3 },
   {
     name: 'Dark Souls',
