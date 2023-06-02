@@ -9,6 +9,7 @@ const dishonored = require('@pixelastic/videogames-assets-dishonored');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
 const gta5 = require('@pixelastic/videogames-assets-gta5');
 const gtaViceCity = require('@pixelastic/videogames-assets-gta-vice-city');
+const gtaSanAndreas = require('@pixelastic/videogames-assets-gta-san-andreas');
 const hades = require('@pixelastic/videogames-assets-hades');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
@@ -26,6 +27,12 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
+  {
+    name: 'GTA San Andreas',
+    date: '2023-03-08',
+    slug: 'gta-san-andreas',
+    manifest: gtaSanAndreas,
+  },
   {
     name: 'GTA Vice City',
     date: '2022-12-01',
