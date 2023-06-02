@@ -7,6 +7,7 @@ const dishonored = require('@pixelastic/videogames-assets-dishonored');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
 const gta5 = require('@pixelastic/videogames-assets-gta5');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
+const superliminal = require('@pixelastic/videogames-assets-superliminal');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
 const misc = require('@pixelastic/videogames-assets-misc');
 const poe2 = require('@pixelastic/videogames-assets-poe2');
@@ -39,6 +40,12 @@ module.exports = [
     date: '2021-01-17',
     slug: 'thronebreaker',
     manifest: thronebreaker,
+  },
+  {
+    name: 'Superliminal',
+    date: '2020-12-12',
+    slug: 'superliminal',
+    manifest: superliminal,
   },
   {
     name: 'Breath of the Wild',
