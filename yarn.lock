@@ -2575,6 +2575,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta5/-/videogames-assets-gta5-0.0.3.tgz#2fb9ba6a5bcecc8cb51c8f94b9b7e419e52cfebc"
   integrity sha512-qRZ/idKniibWN80FUSFG8Zis31oKREKWetzsDYTHIzMoHbafmm4cz7YrNc+sjCV/Oiggq9mgHDvfjoJl1DAcDw==
 
+"@pixelastic/videogames-assets-hades@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hades/-/videogames-assets-hades-0.0.2.tgz#859a1433a20b1958df01471e50af29e7e8dc2612"
+  integrity sha512-z4bmZKtZ6Y/F1Cnr9xJqsTwYz7bZLyryVPeNYRPaqAItYupV3TDW1elMd8yPq/dGu2OAF1GF4G9hdScovF8ODQ==
+
 "@pixelastic/videogames-assets-hearthstone@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hearthstone/-/videogames-assets-hearthstone-0.0.2.tgz#4e727296ac669087bb363a0e33a1d77f1d09aa3b"

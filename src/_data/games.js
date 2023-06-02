@@ -1,4 +1,5 @@
 const batmanArkhamCity = require('@pixelastic/videogames-assets-batman-arkham-city');
+const hades = require('@pixelastic/videogames-assets-hades');
 const bgeet = require('@pixelastic/videogames-assets-bgeet');
 const breathOfTheWild = require('@pixelastic/videogames-assets-breath-of-the-wild');
 const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
@@ -24,6 +25,12 @@ const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
   { name: 'GTA 3', date: '2022-11-30', slug: 'gta3', manifest: gta3 },
+  {
+    name: 'Hades',
+    date: '2021-12-27',
+    slug: 'hades',
+    manifest: hades,
+  },
   {
     name: 'Pillars of Eternity 2',
     date: '2021-09-15',
