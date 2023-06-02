@@ -2555,6 +2555,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-commandos/-/videogames-assets-commandos-0.0.3.tgz#a4ec424e67daf0a8b4bd17906310b4c8222b4a64"
   integrity sha512-8FZjnup48MyIFMjWzg8L0slZFyTw1oOfliGlfn77vFSQgJ4drhBQX/cgaPV0HvMx5C344ETdNEk3Du4OJ+wIRg==
 
+"@pixelastic/videogames-assets-dark-souls@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dark-souls/-/videogames-assets-dark-souls-0.0.2.tgz#4679b82cea5fb7991bc98640c3e84fc359427fc2"
+  integrity sha512-M+H0nM0lqtpiBsGz1YJX47n3C1/xXz/37ATqpAPwGVlSRhGQiJtuAa5q5qOd0Z44iP+EHTzkXQi61pQFIiG82A==
+
 "@pixelastic/videogames-assets-darkest-dungeon@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-darkest-dungeon/-/videogames-assets-darkest-dungeon-0.0.2.tgz#c4b82d9aff3017e479c04dc148382768fda2c438"

@@ -1,13 +1,14 @@
 const batmanArkhamCity = require('@pixelastic/videogames-assets-batman-arkham-city');
-const hades = require('@pixelastic/videogames-assets-hades');
 const bgeet = require('@pixelastic/videogames-assets-bgeet');
 const breathOfTheWild = require('@pixelastic/videogames-assets-breath-of-the-wild');
 const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
 const commandos = require('@pixelastic/videogames-assets-commandos');
+const darkSouls = require('@pixelastic/videogames-assets-dark-souls');
 const darkestDungeon = require('@pixelastic/videogames-assets-darkest-dungeon');
 const dishonored = require('@pixelastic/videogames-assets-dishonored');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
 const gta5 = require('@pixelastic/videogames-assets-gta5');
+const hades = require('@pixelastic/videogames-assets-hades');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
 const misc = require('@pixelastic/videogames-assets-misc');
@@ -25,6 +26,12 @@ const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
   { name: 'GTA 3', date: '2022-11-30', slug: 'gta3', manifest: gta3 },
+  {
+    name: 'Dark Souls',
+    date: '2022-08-17',
+    slug: 'dark-souls',
+    manifest: darkSouls,
+  },
   {
     name: 'Hades',
     date: '2021-12-27',
