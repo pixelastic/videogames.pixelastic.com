@@ -3,11 +3,11 @@ const bgeet = require('@pixelastic/videogames-assets-bgeet');
 const breathOfTheWild = require('@pixelastic/videogames-assets-breath-of-the-wild');
 const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
 const commandos = require('@pixelastic/videogames-assets-commandos');
+const darkestDungeon = require('@pixelastic/videogames-assets-darkest-dungeon');
 const dishonored = require('@pixelastic/videogames-assets-dishonored');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
 const gta5 = require('@pixelastic/videogames-assets-gta5');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
-const superliminal = require('@pixelastic/videogames-assets-superliminal');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
 const misc = require('@pixelastic/videogames-assets-misc');
 const poe2 = require('@pixelastic/videogames-assets-poe2');
@@ -15,6 +15,7 @@ const poe = require('@pixelastic/videogames-assets-poe');
 const skyrim = require('@pixelastic/videogames-assets-skyrim');
 const spelunky = require('@pixelastic/videogames-assets-spelunky');
 const superMarioOdyssey = require('@pixelastic/videogames-assets-super-mario-odyssey');
+const superliminal = require('@pixelastic/videogames-assets-superliminal');
 const talosPrinciple = require('@pixelastic/videogames-assets-talos-principle');
 const thief = require('@pixelastic/videogames-assets-thief');
 const thronebreaker = require('@pixelastic/videogames-assets-thronebreaker');
@@ -28,6 +29,12 @@ module.exports = [
     date: '2021-09-15',
     slug: 'poe2',
     manifest: poe2,
+  },
+  {
+    name: 'Darkest Dungeon',
+    date: '2021-07-16',
+    slug: 'darkest-dungeon',
+    manifest: darkestDungeon,
   },
   {
     name: 'The Talos Principle',
