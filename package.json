@@ -12,7 +12,7 @@
     "@pixelastic/videogames-assets-gta-vice-city": "0.0.2",
     "@pixelastic/videogames-assets-gta3": "0.0.3",
     "@pixelastic/videogames-assets-gta5": "0.0.3",
-    "@pixelastic/videogames-assets-hades": "0.0.2",
+    "@pixelastic/videogames-assets-hades": "0.0.3",
     "@pixelastic/videogames-assets-hearthstone": "0.0.2",
     "@pixelastic/videogames-assets-lego-harry-potter-year-5-7": "0.0.2",
     "@pixelastic/videogames-assets-misc": "0.0.2",
@@ -24,14 +24,14 @@
     "@pixelastic/videogames-assets-superliminal": "0.0.2",
     "@pixelastic/videogames-assets-talos-principle": "0.1.0",
     "@pixelastic/videogames-assets-thief": "0.0.2",
-    "@pixelastic/videogames-assets-thronebreaker": "0.0.2",
+    "@pixelastic/videogames-assets-thronebreaker": "0.0.3",
     "@pixelastic/videogames-assets-tinybrains": "0.0.2",
     "@pixelastic/videogames-assets-tombraider": "0.0.5",
     "@pixelastic/videogames-assets-warhammerquest": "0.0.4",
     "norska": "2.9.0"
   },
   "devDependencies": {
-    "aberlaas": "1.25.0",
+    "aberlaas": "1.25.1",
     "firost": "2.17.0",
     "golgoth": "2.1.0"
   },
