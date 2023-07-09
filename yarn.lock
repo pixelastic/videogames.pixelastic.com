@@ -2808,6 +2808,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dishonored/-/videogames-assets-dishonored-0.0.2.tgz#865d2c34fe6bbe14a453045afedeb67a8536f32c"
   integrity sha512-RHNGb/7pdKYs9RkOc12dF114q2JkKIPhOyb4pJM86l5/S7eS69qSflzUM+Vyzbd+KQ1K3I3d3dStwYd8cdIlOg==
 
+"@pixelastic/videogames-assets-divinity-original-sin@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-divinity-original-sin/-/videogames-assets-divinity-original-sin-0.0.2.tgz#e0082d62d70fb6768ddf7ddea64420f5f10d1476"
+  integrity sha512-Qif3Txaxp6cjhUYYWtB01voPndIRwdi1AuGGUwIk8nntg1vokt7AmbLKOn5WVCvVfVuHTtYN+u+hMRaAeqH/xw==
+
 "@pixelastic/videogames-assets-gta-san-andreas@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta-san-andreas/-/videogames-assets-gta-san-andreas-0.0.2.tgz#c712828109b813eb9654daa5eacb3c9d89eedaa7"
@@ -2848,6 +2853,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-misc/-/videogames-assets-misc-0.0.2.tgz#be4e6d73575271340250ddfa88a16455a9dca33d"
   integrity sha512-UI82bkUoOYI+kG0DygwYZLxRjfAfSpAM+Z4THZRSppiaJmssobDehVh3u9JqQBo635f3nn0NrwccglJdi1LH2A==
 
+"@pixelastic/videogames-assets-pathfinder-kingmaker@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-pathfinder-kingmaker/-/videogames-assets-pathfinder-kingmaker-0.0.2.tgz#1734658ff10ccd2215b2dd5c1cbe45556c017915"
+  integrity sha512-iDNtmSbDrYW79ETIGmZ541d4f6hXoxhf1SoSLVunCHzk6PCe59sIa42vzQzTmSNedl07hNe8krHpOiCAKjk9NA==
+
 "@pixelastic/videogames-assets-poe2@0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-poe2/-/videogames-assets-poe2-0.1.5.tgz#cd817b4615a185138d6ffdaa4d924aca9c3e9d55"
@@ -2862,6 +2872,11 @@
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-skyrim/-/videogames-assets-skyrim-0.0.3.tgz#4212a19419f35ab8ba092016edb1a478c483b998"
   integrity sha512-LKnMnxsL9fhAIEbg99qW9jcIlGStaxyVK3hDQ6ksHoCcGWqdhhG6TMzWitL2uG5uT2FbSWYwzCR76qkp9o+TkQ==
+
+"@pixelastic/videogames-assets-solasta@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-solasta/-/videogames-assets-solasta-0.0.2.tgz#a9c9a57a7af381dfac7e447adcdb043f636979fc"
+  integrity sha512-6SmChYa2WJpqrLLFrlDDltOFU/d5fXV4PQuFaBuY+XjYw78H/TCY0Bn+EWJq4AG6be2a7ffuYOoitG2m/hQoig==
 
 "@pixelastic/videogames-assets-spelunky@0.0.2":
   version "0.0.2"
