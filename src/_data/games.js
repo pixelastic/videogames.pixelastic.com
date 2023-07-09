@@ -6,17 +6,20 @@ const commandos = require('@pixelastic/videogames-assets-commandos');
 const darkSouls = require('@pixelastic/videogames-assets-dark-souls');
 const darkestDungeon = require('@pixelastic/videogames-assets-darkest-dungeon');
 const dishonored = require('@pixelastic/videogames-assets-dishonored');
+const divinityOriginalSin = require('@pixelastic/videogames-assets-divinity-original-sin');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
 const gta5 = require('@pixelastic/videogames-assets-gta5');
-const gtaViceCity = require('@pixelastic/videogames-assets-gta-vice-city');
 const gtaSanAndreas = require('@pixelastic/videogames-assets-gta-san-andreas');
+const gtaViceCity = require('@pixelastic/videogames-assets-gta-vice-city');
 const hades = require('@pixelastic/videogames-assets-hades');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
 const misc = require('@pixelastic/videogames-assets-misc');
+const pathfinderKingmaker = require('@pixelastic/videogames-assets-pathfinder-kingmaker');
 const poe2 = require('@pixelastic/videogames-assets-poe2');
 const poe = require('@pixelastic/videogames-assets-poe');
 const skyrim = require('@pixelastic/videogames-assets-skyrim');
+const solasta = require('@pixelastic/videogames-assets-solasta');
 const spelunky = require('@pixelastic/videogames-assets-spelunky');
 const superMarioOdyssey = require('@pixelastic/videogames-assets-super-mario-odyssey');
 const superliminal = require('@pixelastic/videogames-assets-superliminal');
@@ -27,6 +30,24 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
+  {
+    name: 'Solasta',
+    date: '2023-07-09',
+    slug: 'solasta',
+    manifest: solasta,
+  },
+  {
+    name: 'Pathfinder: Kingmaker',
+    date: '2023-07-08',
+    slug: 'pathfinder-kingmaker',
+    manifest: pathfinderKingmaker,
+  },
+  {
+    name: 'Divinity: Original Sin',
+    date: '2023-07-05',
+    slug: 'divinity-original-sin',
+    manifest: divinityOriginalSin,
+  },
   {
     name: 'GTA San Andreas',
     date: '2023-03-08',
