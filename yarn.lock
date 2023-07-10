@@ -2793,10 +2793,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-commandos/-/videogames-assets-commandos-0.0.3.tgz#a4ec424e67daf0a8b4bd17906310b4c8222b4a64"
   integrity sha512-8FZjnup48MyIFMjWzg8L0slZFyTw1oOfliGlfn77vFSQgJ4drhBQX/cgaPV0HvMx5C344ETdNEk3Du4OJ+wIRg==
 
-"@pixelastic/videogames-assets-dark-souls@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dark-souls/-/videogames-assets-dark-souls-0.0.2.tgz#4679b82cea5fb7991bc98640c3e84fc359427fc2"
-  integrity sha512-M+H0nM0lqtpiBsGz1YJX47n3C1/xXz/37ATqpAPwGVlSRhGQiJtuAa5q5qOd0Z44iP+EHTzkXQi61pQFIiG82A==
+"@pixelastic/videogames-assets-dark-souls@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-dark-souls/-/videogames-assets-dark-souls-0.0.3.tgz#8f9ed113f4425ddd7257520270b972267ecd2901"
+  integrity sha512-E/Iyg4lm0rtUPgC3D0Q+Vg6y13C8T+CAqbpU0s2GHH7FdbvyRsR+OOav3pwbtgoj7Efv0Qp6Au0bpb9yIdnX2w==
 
 "@pixelastic/videogames-assets-darkest-dungeon@0.0.2":
   version "0.0.2"
@@ -2833,10 +2833,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-gta5/-/videogames-assets-gta5-0.0.3.tgz#2fb9ba6a5bcecc8cb51c8f94b9b7e419e52cfebc"
   integrity sha512-qRZ/idKniibWN80FUSFG8Zis31oKREKWetzsDYTHIzMoHbafmm4cz7YrNc+sjCV/Oiggq9mgHDvfjoJl1DAcDw==
 
-"@pixelastic/videogames-assets-hades@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hades/-/videogames-assets-hades-0.0.3.tgz#07ef5c64e00aadef585ea697b4c4083077b53161"
-  integrity sha512-WbeCdxUpmxzjiXz3KgnQazLz8jkNYTkNawCNBpH2RHe7yKkqUhFkD50BZPszJ6gHx9IsmBPffCANXdD6/h0BSw==
+"@pixelastic/videogames-assets-hades@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-hades/-/videogames-assets-hades-0.0.4.tgz#a260e36caf989b0bc4122f210b01b660e23792d0"
+  integrity sha512-ap7tZK4hGg4HyPoG0NFSDey3QMgMRrMWQrr6xyETKBwGk3F1wLu/EBX0LwbE1Yn6aNxG6u2ri6FCwtDKr3MAtg==
 
 "@pixelastic/videogames-assets-hearthstone@0.0.2":
   version "0.0.2"
