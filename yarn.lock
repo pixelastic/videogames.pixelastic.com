@@ -2873,10 +2873,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-skyrim/-/videogames-assets-skyrim-0.0.3.tgz#4212a19419f35ab8ba092016edb1a478c483b998"
   integrity sha512-LKnMnxsL9fhAIEbg99qW9jcIlGStaxyVK3hDQ6ksHoCcGWqdhhG6TMzWitL2uG5uT2FbSWYwzCR76qkp9o+TkQ==
 
-"@pixelastic/videogames-assets-solasta@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-solasta/-/videogames-assets-solasta-0.0.8.tgz#cfeb57d65dfe624f1e673011957a8325a3d2c5ce"
-  integrity sha512-KKvf7P5bski0M0T8q+Vi/tRKUqX6fgk+A0RAchwFmqhm+zYLgZgNLXquUM2c2NOl/s3ltKsV4r9ECSFOGdbAZg==
+"@pixelastic/videogames-assets-solasta@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-solasta/-/videogames-assets-solasta-0.0.9.tgz#2992ca286ab1c48c39100c029951dde3d9ce4c31"
+  integrity sha512-AvQSw72ROjN1GEx064+4z8SFmm+MTA4cWcZVeCysPxU+zKpOWuLh7qeaq/L6ytIwiCWZi0O/fD3DEDAjK7Ne8g==
 
 "@pixelastic/videogames-assets-spelunky@0.0.2":
   version "0.0.2"
