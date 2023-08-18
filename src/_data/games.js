@@ -1,4 +1,5 @@
 const batmanArkhamCity = require('@pixelastic/videogames-assets-batman-arkham-city');
+const bg3 = require('@pixelastic/videogames-assets-bg3');
 const bgeet = require('@pixelastic/videogames-assets-bgeet');
 const breathOfTheWild = require('@pixelastic/videogames-assets-breath-of-the-wild');
 const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
@@ -30,6 +31,12 @@ const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
 module.exports = [
+  {
+    name: "Baldur's Gate 3",
+    date: '2023-08-18',
+    slug: 'bg3',
+    manifest: bg3,
+  },
   {
     name: 'Solasta',
     date: '2023-07-09',
