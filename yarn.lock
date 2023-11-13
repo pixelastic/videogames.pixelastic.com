@@ -2773,10 +2773,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-batman-arkham-city/-/videogames-assets-batman-arkham-city-0.0.4.tgz#2e3a7bf5c5c32258c596496321c91403c2ac78d0"
   integrity sha512-ur+kmARj2jpXWhG+7ABPzfTnnoajOmbmMYdI7wXi4P/uj76yvhDXrVSc3whGfg3jpXDk7s34YICS68C8zo1Uzg==
 
-"@pixelastic/videogames-assets-bg3@0.0.51":
-  version "0.0.51"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-bg3/-/videogames-assets-bg3-0.0.51.tgz#8febfa52d7c8584a5e07219f00a12c0fbafcc4bd"
-  integrity sha512-XcmWs05aoqIOdc4+5yixrwgj9E3TcC1c4WccpzWsBOtx2DvA4k35ZMNHcXbgZebRDmzEUPBqnGualmKnC23Xrg==
+"@pixelastic/videogames-assets-bg3@0.0.52":
+  version "0.0.52"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-bg3/-/videogames-assets-bg3-0.0.52.tgz#a199658ed901bd8f63f3ae529232e6c156eeffcf"
+  integrity sha512-QWxOSVxDwIA4gHg0UQAlQ6G/N6LEftkeAa1f2f7ZgzT/R1e/E5xjmSQloylVrkz66iPcYHAZCJXV8CcNKRCRtA==
 
 "@pixelastic/videogames-assets-bgeet@0.1.1":
   version "0.1.1"
