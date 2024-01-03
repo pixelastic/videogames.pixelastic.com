@@ -4,7 +4,7 @@ const games = require('./src/_data/games');
 const path = require('path');
 
 module.exports = {
-  cloudinary: 'pixelastic-videogames',
+  cloudinary: 'dosjrfdyf',
   hooks: {
     async afterHtml({ createPage }) {
       const template = '_includes/templates/game.pug';
