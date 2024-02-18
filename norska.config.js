@@ -4,7 +4,15 @@ const games = require('./src/_data/games');
 const path = require('path');
 
 module.exports = {
-  cloudinary: 'dosjrfdyf',
+  // We split the Cloudinary load on 5 different accounts to be less likely to
+  // hit the limits. I got my main account go overquota twice aready
+  cloudinary: [
+    'dlq1tdfbf', // neogeo
+    'dn98xmodu', // snes
+    'dqagu69vh', // genesis
+    'dtwfbcblf', // psx
+    'dyupzrepd', // gb
+  ],
   hooks: {
     async afterHtml({ createPage }) {
       const template = '_includes/templates/game.pug';
