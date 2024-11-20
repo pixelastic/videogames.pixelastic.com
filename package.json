@@ -18,11 +18,11 @@
     "@pixelastic/videogames-assets-hearthstone": "0.0.2",
     "@pixelastic/videogames-assets-lego-harry-potter-year-5-7": "0.0.2",
     "@pixelastic/videogames-assets-misc": "0.0.2",
-    "@pixelastic/videogames-assets-pathfinder-kingmaker": "0.0.2",
+    "@pixelastic/videogames-assets-pathfinder-kingmaker": "0.0.3",
     "@pixelastic/videogames-assets-poe": "0.0.11",
     "@pixelastic/videogames-assets-poe2": "0.1.5",
     "@pixelastic/videogames-assets-skyrim": "0.0.3",
-    "@pixelastic/videogames-assets-solasta": "0.0.9",
+    "@pixelastic/videogames-assets-solasta": "0.0.10",
     "@pixelastic/videogames-assets-spelunky": "0.0.2",
     "@pixelastic/videogames-assets-super-mario-odyssey": "0.0.3",
     "@pixelastic/videogames-assets-superliminal": "0.0.2",
@@ -35,9 +35,9 @@
     "norska": "2.10.0"
   },
   "devDependencies": {
-    "aberlaas": "1.25.1",
+    "aberlaas": "1.26.0",
     "firost": "2.17.0",
-    "golgoth": "2.1.0"
+    "golgoth": "2.4.0"
   },
   "files": [],
   "name": "videogames.pixelastic.com",
