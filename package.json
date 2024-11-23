@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@pixelastic/videogames-assets-bg3": "0.0.54",
     "@pixelastic/videogames-assets-batman-arkham-city": "0.0.4",
+    "@pixelastic/videogames-assets-bg3": "0.0.54",
     "@pixelastic/videogames-assets-bgeet": "0.1.1",
     "@pixelastic/videogames-assets-breath-of-the-wild": "0.1.1",
     "@pixelastic/videogames-assets-castlecrashers": "0.0.2",
@@ -18,6 +18,7 @@
     "@pixelastic/videogames-assets-hearthstone": "0.0.2",
     "@pixelastic/videogames-assets-lego-harry-potter-year-5-7": "0.0.2",
     "@pixelastic/videogames-assets-misc": "0.0.2",
+    "@pixelastic/videogames-assets-mordheim": "0.0.3",
     "@pixelastic/videogames-assets-pathfinder-kingmaker": "0.0.2",
     "@pixelastic/videogames-assets-poe": "0.0.11",
     "@pixelastic/videogames-assets-poe2": "0.1.5",

@@ -16,6 +16,7 @@ const hades = require('@pixelastic/videogames-assets-hades');
 const hearthstone = require('@pixelastic/videogames-assets-hearthstone');
 const legoHarryPotterYear57 = require('@pixelastic/videogames-assets-lego-harry-potter-year-5-7');
 const misc = require('@pixelastic/videogames-assets-misc');
+const mordheim = require('@pixelastic/videogames-assets-mordheim');
 const pathfinderKingmaker = require('@pixelastic/videogames-assets-pathfinder-kingmaker');
 const poe2 = require('@pixelastic/videogames-assets-poe2');
 const poe = require('@pixelastic/videogames-assets-poe');
@@ -164,6 +165,12 @@ module.exports = [
     date: '2017-02-22',
     slug: 'super-mario-odyssey',
     manifest: superMarioOdyssey,
+  },
+  {
+    name: 'Mordheim: City of the Damned',
+    date: '2016-10-16',
+    slug: 'mordheim',
+    manifest: mordheim,
   },
   {
     name: 'Hearthstone',

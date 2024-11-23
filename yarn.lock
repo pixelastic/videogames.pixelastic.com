@@ -3022,6 +3022,11 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-misc/-/videogames-assets-misc-0.0.2.tgz#be4e6d73575271340250ddfa88a16455a9dca33d"
   integrity sha512-UI82bkUoOYI+kG0DygwYZLxRjfAfSpAM+Z4THZRSppiaJmssobDehVh3u9JqQBo635f3nn0NrwccglJdi1LH2A==
 
+"@pixelastic/videogames-assets-mordheim@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-mordheim/-/videogames-assets-mordheim-0.0.3.tgz#436deebafcaa3fbb1a1d6f5bda7db6394210c3fa"
+  integrity sha512-viBKFZa1dgWLIk8fiJSy04R8Zo+j6vRVrnJAMlXLtVd5Oi5UJWr1pChMPgQyBnrPJXN/p2/sA6W7RiN028UVNQ==
+
 "@pixelastic/videogames-assets-pathfinder-kingmaker@0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-pathfinder-kingmaker/-/videogames-assets-pathfinder-kingmaker-0.0.2.tgz#1734658ff10ccd2215b2dd5c1cbe45556c017915"
