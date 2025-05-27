@@ -9,6 +9,7 @@
     "@pixelastic/videogames-assets-dark-souls": "0.0.3",
     "@pixelastic/videogames-assets-darkest-dungeon": "0.0.2",
     "@pixelastic/videogames-assets-dishonored": "0.0.2",
+    "@pixelastic/videogames-assets-dishonored2": "0.0.5",
     "@pixelastic/videogames-assets-divinity-original-sin": "0.0.2",
     "@pixelastic/videogames-assets-gta-san-andreas": "0.0.2",
     "@pixelastic/videogames-assets-gta-vice-city": "0.0.2",
@@ -32,6 +33,7 @@
     "@pixelastic/videogames-assets-thronebreaker": "0.0.3",
     "@pixelastic/videogames-assets-tinybrains": "0.0.2",
     "@pixelastic/videogames-assets-tombraider": "0.0.5",
+    "@pixelastic/videogames-assets-tower-of-time": "0.0.4",
     "@pixelastic/videogames-assets-warhammerquest": "0.0.4",
     "norska": "2.10.0"
   },

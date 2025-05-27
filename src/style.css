@@ -4,6 +4,12 @@
 
 html {
   .prose {
+    h1 {
+      @apply orbitron text-8 white;
+      a {
+        @apply white no-underline;
+      }
+    }
     h2 {
       @apply orbitron text-6 white;
     }

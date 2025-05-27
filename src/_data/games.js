@@ -6,6 +6,7 @@ const castlecrashers = require('@pixelastic/videogames-assets-castlecrashers');
 const commandos = require('@pixelastic/videogames-assets-commandos');
 const darkSouls = require('@pixelastic/videogames-assets-dark-souls');
 const darkestDungeon = require('@pixelastic/videogames-assets-darkest-dungeon');
+const dishonored2 = require('@pixelastic/videogames-assets-dishonored2');
 const dishonored = require('@pixelastic/videogames-assets-dishonored');
 const divinityOriginalSin = require('@pixelastic/videogames-assets-divinity-original-sin');
 const gta3 = require('@pixelastic/videogames-assets-gta3');
@@ -30,8 +31,28 @@ const thief = require('@pixelastic/videogames-assets-thief');
 const thronebreaker = require('@pixelastic/videogames-assets-thronebreaker');
 const tinybrains = require('@pixelastic/videogames-assets-tinybrains');
 const tombraider = require('@pixelastic/videogames-assets-tombraider');
+const towerOfTime = require('@pixelastic/videogames-assets-tower-of-time');
 const warhammerquest = require('@pixelastic/videogames-assets-warhammerquest');
+
 module.exports = [
+  {
+    name: 'Pathfinder: Kingmaker',
+    date: '2025-03-29',
+    slug: 'pathfinder-kingmaker',
+    manifest: pathfinderKingmaker,
+  },
+  {
+    name: 'Dishonored 2',
+    date: '2025-03-24',
+    slug: 'dishonored2',
+    manifest: dishonored2,
+  },
+  {
+    name: 'Tower Of Time',
+    date: '2025-03-26',
+    slug: 'tower-of-time',
+    manifest: towerOfTime,
+  },
   {
     name: "Baldur's Gate 3",
     date: '2023-08-18',
@@ -43,12 +64,6 @@ module.exports = [
     date: '2023-07-09',
     slug: 'solasta',
     manifest: solasta,
-  },
-  {
-    name: 'Pathfinder: Kingmaker',
-    date: '2023-07-08',
-    slug: 'pathfinder-kingmaker',
-    manifest: pathfinderKingmaker,
   },
   {
     name: 'Divinity: Original Sin',
