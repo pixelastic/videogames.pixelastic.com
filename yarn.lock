@@ -3027,10 +3027,10 @@
   resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-mordheim/-/videogames-assets-mordheim-0.0.3.tgz#436deebafcaa3fbb1a1d6f5bda7db6394210c3fa"
   integrity sha512-viBKFZa1dgWLIk8fiJSy04R8Zo+j6vRVrnJAMlXLtVd5Oi5UJWr1pChMPgQyBnrPJXN/p2/sA6W7RiN028UVNQ==
 
-"@pixelastic/videogames-assets-pathfinder-kingmaker@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-pathfinder-kingmaker/-/videogames-assets-pathfinder-kingmaker-0.0.2.tgz#1734658ff10ccd2215b2dd5c1cbe45556c017915"
-  integrity sha512-iDNtmSbDrYW79ETIGmZ541d4f6hXoxhf1SoSLVunCHzk6PCe59sIa42vzQzTmSNedl07hNe8krHpOiCAKjk9NA==
+"@pixelastic/videogames-assets-pathfinder-kingmaker@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@pixelastic/videogames-assets-pathfinder-kingmaker/-/videogames-assets-pathfinder-kingmaker-0.0.4.tgz#c0bfcbdbf799e778fe4e2710da8c64defbc96051"
+  integrity sha512-N8JXPiakpVFxqEEmvxXJ0dlv55QoZY8VO+v+F/+ybjp+QDbA4AeWntHfD41O8mAeyMqfwP14s19aCl0ccgokCA==
 
 "@pixelastic/videogames-assets-poe2@0.1.5":
   version "0.1.5"
